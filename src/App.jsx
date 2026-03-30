@@ -31,9 +31,9 @@ function transformGame(raw) {
     ticketsRemainingFraction,
     tiers: (raw.tiers ?? []).map(tier => ({
       prize: tier.prize,
-      odds: tier.odds,
+      originalCount: tier.total_printed ?? tier.originalCount,
       remaining: tier.remaining,
-      totalPrinted: tier.total_printed ?? tier.totalPrinted,
+      richnessRatio: tier.richness_ratio,
     })),
   }
 }
