@@ -28,6 +28,11 @@ export function groupByGame(rows) {
         tiers: [],
       }
     }
+    // TOTAL row provides sum of all prizes — use as ticket count proxy
+    if (row['Prize Level'] === 'TOTAL') {
+      games[id].totalPrizesPrinted = Number(row['Total Prizes in Level'])
+      continue
+    }
     games[id].tiers.push({
       prize: Number(row['Prize Level']),
       printed: Number(row['Total Prizes in Level']),
@@ -103,6 +108,9 @@ export function computeGameMetrics(game, baseline) {
 function resolveTicketsAtLaunch(game, rows) {
   const firstRow = rows.find(r => r['Game Number'] === game.id)
   if (firstRow?.['Total Tickets']) return Number(firstRow['Total Tickets'])
+
+  // TOTAL row prize count used as proxy for total tickets (prizes uniformly distributed among tickets)
+  if (game.totalPrizesPrinted) return game.totalPrizesPrinted
 
   const oddsRaw = firstRow?.['Overall Odds'] ?? firstRow?.['Odds']
   if (oddsRaw) {

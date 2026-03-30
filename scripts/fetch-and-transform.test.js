@@ -10,7 +10,7 @@ const sampleCSV = readFileSync(resolve(__dirname, 'fixtures/sample.csv'), 'utf-8
 describe('parseCSV', () => {
   it('returns array of row objects with correct column names', async () => {
     const rows = await parseCSV(sampleCSV)
-    expect(rows).toHaveLength(5)
+    expect(rows).toHaveLength(7) // 5 prize-tier rows + 2 TOTAL rows
     expect(rows[0]).toMatchObject({
       'Game Number': '1001',
       'Game Name': 'Test Game A',
