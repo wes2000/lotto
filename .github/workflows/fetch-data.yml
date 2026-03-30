@@ -29,6 +29,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/texas-latest.json data/texas-history.json data/texas-baseline.json
-          git diff --staged --quiet || git commit -m "chore: update texas data [skip ci]"
-          git push
+          files=""
+          [ -f data/texas-latest.json ] && files="$files data/texas-latest.json"
+          [ -f data/texas-history.json ] && files="$files data/texas-history.json"
+          [ -f data/texas-baseline.json ] && files="$files data/texas-baseline.json"
+          if [ -n "$files" ]; then
+            git add $files
+            git diff --staged --quiet || git commit -m "chore: update texas data [skip ci]"
+            git push
+          else
+            echo "No data files to commit."
+          fi

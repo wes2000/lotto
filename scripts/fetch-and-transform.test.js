@@ -12,11 +12,11 @@ describe('parseCSV', () => {
     const rows = await parseCSV(sampleCSV)
     expect(rows).toHaveLength(5)
     expect(rows[0]).toMatchObject({
-      'Game #': '1001',
+      'Game Number': '1001',
       'Game Name': 'Test Game A',
       'Ticket Price': '10',
-      'Prize Amount': '1000',
-      'Prizes Printed': '5',
+      'Prize Level': '1000',
+      'Total Prizes in Level': '5',
       'Prizes Claimed': '2',
     })
   })

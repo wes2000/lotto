@@ -9,7 +9,7 @@ const BASELINE_PATH = resolve(DATA_DIR, 'texas-baseline.json')
 const LATEST_PATH = resolve(DATA_DIR, 'texas-latest.json')
 const HISTORY_PATH = resolve(DATA_DIR, 'texas-history.json')
 const HISTORY_CAP = 720
-const CSV_URL = 'https://www.texaslottery.com/export/sites/lottery/Games/Scratch_Offs/scratch_off_odds.csv'
+const CSV_URL = 'https://www.texaslottery.com/export/sites/lottery/Games/Scratch_Offs/scratchoff.csv'
 
 export async function parseCSV(csvText) {
   return parse(csvText, { columns: true, skip_empty_lines: true, trim: true })
@@ -18,19 +18,19 @@ export async function parseCSV(csvText) {
 export function groupByGame(rows) {
   const games = {}
   for (const row of rows) {
-    const id = row['Game #']
+    const id = row['Game Number']
     if (!games[id]) {
       games[id] = {
         id,
         name: row['Game Name'],
         ticketPrice: Number(row['Ticket Price']),
-        startDate: row['Start Date'],
+        startDate: row['Game Close Date'],
         tiers: [],
       }
     }
     games[id].tiers.push({
-      prize: Number(row['Prize Amount']),
-      printed: Number(row['Prizes Printed']),
+      prize: Number(row['Prize Level']),
+      printed: Number(row['Total Prizes in Level']),
       claimed: Number(row['Prizes Claimed']),
     })
   }
@@ -101,7 +101,7 @@ export function computeGameMetrics(game, baseline) {
 }
 
 function resolveTicketsAtLaunch(game, rows) {
-  const firstRow = rows.find(r => r['Game #'] === game.id)
+  const firstRow = rows.find(r => r['Game Number'] === game.id)
   if (firstRow?.['Total Tickets']) return Number(firstRow['Total Tickets'])
 
   const oddsRaw = firstRow?.['Overall Odds'] ?? firstRow?.['Odds']
