@@ -1,39 +1,27 @@
 import { useState, useEffect } from 'react'
 import SummaryBar from './components/SummaryBar.jsx'
 import GameGrid from './components/GameGrid.jsx'
-import { computeBuyAllCost, computeBuyAllProfit, computeRichnessRatio, computeTicketsRemainingFraction } from './utils/calculations.js'
 
 const DATA_URL = 'https://raw.githubusercontent.com/wes2000/lotto/main/data/texas-latest.json'
 
 function transformGame(raw) {
-  const ticketPrice = raw.ticket_price
-  const ticketsRemaining = raw.tickets_remaining
-  const totalTicketsPrinted = raw.total_tickets_printed
-  const totalPrizeValueAtLaunch = raw.total_prize_value_at_launch
-  const prizesRemainingValue = raw.prizes_remaining_value
-
-  const buyAllCost = raw.buy_all_cost ?? computeBuyAllCost({ ticketsRemaining, ticketPrice })
-  const buyAllProfit = raw.buy_all_profit ?? computeBuyAllProfit({ prizesRemainingValue, buyAllCost })
-  const richnessRatio = raw.richness_ratio ?? computeRichnessRatio({ prizesRemainingValue, ticketsRemaining, totalPrizeValueAtLaunch, totalTicketsPrinted })
-  const ticketsRemainingFraction = raw.tickets_remaining_fraction ?? computeTicketsRemainingFraction({ ticketsRemaining, totalTicketsPrinted })
-
   return {
     id: raw.id,
     name: raw.name,
-    ticketPrice,
-    ticketsRemaining,
-    totalTicketsPrinted,
-    totalPrizeValueAtLaunch,
-    prizesRemainingValue,
-    buyAllCost,
-    buyAllProfit,
-    richnessRatio,
-    ticketsRemainingFraction,
+    ticketPrice: raw.ticketPrice,
+    ticketsRemaining: raw.ticketsRemaining,
+    totalTicketsPrinted: raw.totalTicketsPrinted,
+    totalPrizeValueAtLaunch: raw.totalPrizeValueAtLaunch,
+    prizesRemainingValue: raw.prizesRemainingValue,
+    buyAllCost: raw.buyAllCost,
+    buyAllProfit: raw.buyAllProfit,
+    richnessRatio: raw.richnessRatio,
+    ticketsRemainingFraction: raw.ticketsRemainingFraction,
     tiers: (raw.tiers ?? []).map(tier => ({
       prize: tier.prize,
-      originalCount: tier.total_printed ?? tier.originalCount,
+      originalCount: tier.originalCount,
       remaining: tier.remaining,
-      richnessRatio: tier.richness_ratio,
+      richnessRatio: tier.richnessRatio,
     })),
   }
 }
