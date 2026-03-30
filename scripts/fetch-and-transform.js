@@ -12,7 +12,7 @@ const HISTORY_CAP = 720
 const CSV_URL = 'https://www.texaslottery.com/export/sites/lottery/Games/Scratch_Offs/scratchoff.csv'
 
 export async function parseCSV(csvText) {
-  return parse(csvText, { columns: true, skip_empty_lines: true, trim: true })
+  return parse(csvText, { columns: true, skip_empty_lines: true, trim: true, from_line: 2 })
 }
 
 export function groupByGame(rows) {
