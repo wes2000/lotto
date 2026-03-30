@@ -2,22 +2,6 @@ import { render, screen, waitFor } from '@testing-library/react'
 import { describe, it, expect, vi, beforeEach } from 'vitest'
 import App from './App.jsx'
 
-// A minimal game fixture with all camelCase fields the components need
-const gameFixture = {
-  id: '1001',
-  name: 'Lucky 7s',
-  ticketPrice: 5,
-  richnessRatio: 1.2,
-  prizesRemainingValue: 500000,
-  buyAllProfit: -50000,
-  buyAllCost: 550000,
-  ticketsRemainingFraction: 0.4,
-  ticketsRemaining: 4000,
-  totalTicketsPrinted: 10000,
-  totalPrizeValueAtLaunch: 600000,
-  tiers: [],
-}
-
 // The raw JSON shape as it comes from the server (snake_case)
 const jsonFixture = {
   fetched_at: '2026-03-29T14:00:00Z',
