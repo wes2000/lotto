@@ -22,8 +22,14 @@ export function computeTicketsRemainingFraction({ ticketsRemaining, totalTickets
 export function formatCurrency(value) {
   const abs = Math.abs(value)
   const prefix = value < 0 ? '-' : ''
-  if (abs >= 1_000_000) return `${prefix}$${(abs / 1_000_000).toFixed(1)}M`
-  if (abs >= 1_000) return `${prefix}$${(abs / 1_000).toFixed(1)}K`
+  if (abs >= 1_000_000) {
+    const n = abs / 1_000_000
+    return `${prefix}$${n % 1 === 0 ? n.toFixed(0) : n.toFixed(1)}M`
+  }
+  if (abs >= 1_000) {
+    const n = abs / 1_000
+    return `${prefix}$${n % 1 === 0 ? n.toFixed(0) : n.toFixed(1)}K`
+  }
   return `${prefix}$${abs}`
 }
 
