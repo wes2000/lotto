@@ -47,7 +47,7 @@ export default function App() {
         const json = JSON.parse(text)
         setData({
           fetchedAt: json.fetched_at,
-          csvDate: json.csv_date,
+          csvLastModified: json.csv_last_modified,
           games: json.games.map(transformGame),
         })
         setState('loaded')
@@ -72,7 +72,7 @@ export default function App() {
       <header>
         <h1>Texas Lottery Dashboard</h1>
       </header>
-      <SummaryBar games={data.games} fetchedAt={data.fetchedAt} csvDate={data.csvDate} onRefresh={fetchData} />
+      <SummaryBar games={data.games} fetchedAt={data.fetchedAt} csvLastModified={data.csvLastModified} onRefresh={fetchData} />
       <GameGrid games={data.games} />
     </div>
   )

@@ -1,7 +1,7 @@
 import { formatCurrency } from '../utils/calculations.js'
 import { COLORS } from '../theme.js'
 
-export default function SummaryBar({ games, fetchedAt, csvDate, onRefresh }) {
+export default function SummaryBar({ games, fetchedAt, csvLastModified, onRefresh }) {
   const totalPrizes = games.reduce((s, g) => s + g.prizesRemainingValue, 0)
   const bestBuyAll = Math.max(...games.map(g => g.buyAllProfit))
   const allNegative = games.every(g => g.buyAllProfit < 0)
@@ -46,9 +46,9 @@ export default function SummaryBar({ games, fetchedAt, csvDate, onRefresh }) {
         <div style={{ textAlign: 'center' }}>
           <div style={{ color: COLORS.textFaint, fontSize: 10, textTransform: 'uppercase' }}>Last updated</div>
           <div style={{ color: COLORS.textMuted, fontSize: 13 }}>{timeStr}</div>
-          {csvDate && (
+          {csvLastModified && (
             <div style={{ color: COLORS.textFaint, fontSize: 10, marginTop: 2 }}>
-              TX data as of {csvDate}
+              TX data: {new Date(csvLastModified).toLocaleString([], { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })}
             </div>
           )}
           <button

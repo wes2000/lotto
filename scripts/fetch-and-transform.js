@@ -173,9 +173,11 @@ function dataChanged(newLatest, existingPath) {
 export async function run() {
   console.log('[fetch] Fetching TX Lottery CSV...')
   let csvText
+  let csvLastModified = null
   try {
     const res = await fetch(CSV_URL)
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
+    csvLastModified = res.headers.get('Last-Modified') || null
     csvText = await res.text()
   } catch (err) {
     console.warn(`[fetch] Failed to fetch CSV: ${err.message}. Skipping update.`)
@@ -203,7 +205,7 @@ export async function run() {
     .filter(Boolean)
 
   const fetchedAt = new Date().toISOString()
-  const latest = { state: 'texas', fetched_at: fetchedAt, csv_date: csvDate, games: computedGames }
+  const latest = { state: 'texas', fetched_at: fetchedAt, csv_date: csvDate, csv_last_modified: csvLastModified, games: computedGames }
 
   if (!dataChanged(latest, LATEST_PATH)) {
     console.log('[fetch] No data change detected. Skipping commit.')
