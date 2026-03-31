@@ -5,7 +5,8 @@ import { COLORS } from '../theme.js'
 
 export default function GameCard({ game }) {
   const [expanded, setExpanded] = useState(false)
-  const { name, ticketPrice, richnessRatio, prizesRemainingValue, buyAllProfit, ticketsRemainingFraction } = game
+  const { name, ticketPrice, richnessRatio, prizesRemainingValue, buyAllProfit, ticketsRemainingFraction, ticketsRemaining, expectedValue } = game
+  const netEV = expectedValue !== null && expectedValue !== undefined ? expectedValue - ticketPrice : null
   const color = getRichnessColor(richnessRatio)
   const profitColor = buyAllProfit >= 0 ? COLORS.green : COLORS.red
 
@@ -38,7 +39,7 @@ export default function GameCard({ game }) {
           </span>
         </div>
 
-        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 10 }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 6 }}>
           <div>
             <div style={{ color: COLORS.textFaint, fontSize: 10 }}>PRIZES LEFT</div>
             <div style={{ color: COLORS.gold, fontWeight: 700, fontSize: 16 }}>{formatCurrency(prizesRemainingValue)}</div>
@@ -49,6 +50,19 @@ export default function GameCard({ game }) {
           </div>
         </div>
 
+        {netEV !== null && (
+          <div style={{ marginBottom: 10 }}>
+            <div style={{ color: COLORS.textFaint, fontSize: 10 }}>EXPECTED VALUE (EXCL. TOP 3)</div>
+            <div style={{
+              color: netEV >= 0 ? COLORS.green : COLORS.textMuted,
+              fontWeight: 700,
+              fontSize: 14,
+            }}>
+              {netEV >= 0 ? '+' : ''}{netEV < 1 && netEV > -1 ? `$${netEV.toFixed(2)}` : formatCurrency(Math.round(netEV))} / ticket
+            </div>
+          </div>
+        )}
+
         {/* Progress bar */}
         <div style={{ background: 'rgba(255,255,255,0.1)', borderRadius: 3, height: 4 }}>
           <div style={{
@@ -58,10 +72,17 @@ export default function GameCard({ game }) {
             borderRadius: 3,
           }} />
         </div>
-        <div style={{ color: COLORS.textFaint, fontSize: 10, marginTop: 4 }}>
-          {ticketsRemainingFraction !== null
-            ? `${Math.round(ticketsRemainingFraction * 100)}% tickets remain`
-            : 'Ticket count unavailable'}
+        <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 4 }}>
+          <div style={{ color: COLORS.textFaint, fontSize: 10 }}>
+            {ticketsRemainingFraction !== null
+              ? `${Math.round(ticketsRemainingFraction * 100)}% tickets remain`
+              : 'Ticket count unavailable'}
+          </div>
+          {ticketsRemaining != null && (
+            <div style={{ color: COLORS.textFaint, fontSize: 10 }}>
+              {ticketsRemaining.toLocaleString()} remaining
+            </div>
+          )}
         </div>
       </div>
 

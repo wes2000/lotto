@@ -1,11 +1,21 @@
 import { describe, it, expect } from 'vitest'
-import { parseCSV, groupByGame, computeGameMetrics } from './fetch-and-transform.js'
+import { parseCSV, groupByGame, computeGameMetrics, extractCSVDate } from './fetch-and-transform.js'
 import { readFileSync } from 'fs'
 import { resolve, dirname } from 'path'
 import { fileURLToPath } from 'url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const sampleCSV = readFileSync(resolve(__dirname, 'fixtures/sample.csv'), 'utf-8')
+
+describe('extractCSVDate', () => {
+  it('extracts MM/DD/YYYY date from title row', () => {
+    expect(extractCSVDate(sampleCSV)).toBe('03/29/2026')
+  })
+
+  it('returns null when no date in first line', () => {
+    expect(extractCSVDate('No date here\nGame Number,Game Name\n')).toBeNull()
+  })
+})
 
 describe('parseCSV', () => {
   it('returns array of row objects with correct column names', async () => {

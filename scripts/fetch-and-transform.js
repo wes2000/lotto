@@ -15,6 +15,12 @@ export async function parseCSV(csvText) {
   return parse(csvText, { columns: true, skip_empty_lines: true, trim: true, from_line: 2 })
 }
 
+export function extractCSVDate(csvText) {
+  const firstLine = csvText.split('\n')[0].replace(/"/g, '').trim()
+  const match = firstLine.match(/(\d{2}\/\d{2}\/\d{4})/)
+  return match ? match[1] : null
+}
+
 export function groupByGame(rows) {
   const games = {}
   for (const row of rows) {
@@ -176,6 +182,7 @@ export async function run() {
     process.exit(0)
   }
 
+  const csvDate = extractCSVDate(csvText)
   const rows = await parseCSV(csvText)
   const games = groupByGame(rows)
 
@@ -196,7 +203,7 @@ export async function run() {
     .filter(Boolean)
 
   const fetchedAt = new Date().toISOString()
-  const latest = { state: 'texas', fetched_at: fetchedAt, games: computedGames }
+  const latest = { state: 'texas', fetched_at: fetchedAt, csv_date: csvDate, games: computedGames }
 
   if (!dataChanged(latest, LATEST_PATH)) {
     console.log('[fetch] No data change detected. Skipping commit.')

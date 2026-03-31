@@ -43,3 +43,11 @@ export function getRichnessColor(ratio) {
   if (ratio < 1.5) return '#ffd700'
   return '#00ff88'
 }
+
+export function computeExpectedValueExcludingTop(tiers, ticketsRemaining, excludeTopN = 3) {
+  if (!ticketsRemaining || ticketsRemaining <= 0) return null
+  const sorted = [...tiers].sort((a, b) => b.prize - a.prize)
+  const included = sorted.slice(excludeTopN)
+  if (included.length === 0) return null
+  return included.reduce((s, t) => s + t.prize * t.remaining, 0) / ticketsRemaining
+}

@@ -7,6 +7,7 @@ import {
   formatCurrency,
   formatRatio,
   getRichnessColor,
+  computeExpectedValueExcludingTop,
 } from './calculations.js'
 
 describe('computeRichnessRatio', () => {
@@ -127,5 +128,41 @@ describe('getRichnessColor', () => {
 
   it('returns red for null', () => {
     expect(getRichnessColor(null)).toBe('#e94560')
+  })
+})
+
+describe('computeExpectedValueExcludingTop', () => {
+  const tiers = [
+    { prize: 1000, remaining: 2 },
+    { prize: 500, remaining: 5 },
+    { prize: 100, remaining: 20 },
+    { prize: 10, remaining: 100 },
+    { prize: 1, remaining: 500 },
+  ]
+
+  it('excludes top 3 tiers and computes EV', () => {
+    // included: $10 (100 remaining) + $1 (500 remaining) = 1000 + 500 = 1500
+    // EV = 1500 / 1000 = 1.5
+    expect(computeExpectedValueExcludingTop(tiers, 1000)).toBeCloseTo(1.5)
+  })
+
+  it('returns null when ticketsRemaining is 0', () => {
+    expect(computeExpectedValueExcludingTop(tiers, 0)).toBeNull()
+  })
+
+  it('returns null when ticketsRemaining is null', () => {
+    expect(computeExpectedValueExcludingTop(tiers, null)).toBeNull()
+  })
+
+  it('returns null when all tiers are excluded', () => {
+    const shortTiers = [{ prize: 100, remaining: 10 }, { prize: 10, remaining: 5 }]
+    expect(computeExpectedValueExcludingTop(shortTiers, 1000, 3)).toBeNull()
+  })
+
+  it('respects custom excludeTopN', () => {
+    // excludeTopN=1: skip $1000, include $500,$100,$10,$1
+    // value = 500*5 + 100*20 + 10*100 + 1*500 = 6000
+    // EV = 6000/1000 = 6.0
+    expect(computeExpectedValueExcludingTop(tiers, 1000, 1)).toBeCloseTo(6.0)
   })
 })

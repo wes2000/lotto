@@ -1,7 +1,7 @@
 import { formatCurrency } from '../utils/calculations.js'
 import { COLORS } from '../theme.js'
 
-export default function SummaryBar({ games, fetchedAt }) {
+export default function SummaryBar({ games, fetchedAt, csvDate, onRefresh }) {
   const totalPrizes = games.reduce((s, g) => s + g.prizesRemainingValue, 0)
   const bestBuyAll = Math.max(...games.map(g => g.buyAllProfit))
   const allNegative = games.every(g => g.buyAllProfit < 0)
@@ -34,6 +34,7 @@ export default function SummaryBar({ games, fetchedAt }) {
         borderBottom: `1px solid ${COLORS.cardBorder}`,
         flexWrap: 'wrap',
         gap: 16,
+        alignItems: 'center',
       }}>
         <Stat label="Total Prizes" value={formatCurrency(totalPrizes)} color={COLORS.gold} />
         <Stat
@@ -45,6 +46,26 @@ export default function SummaryBar({ games, fetchedAt }) {
         <div style={{ textAlign: 'center' }}>
           <div style={{ color: COLORS.textFaint, fontSize: 10, textTransform: 'uppercase' }}>Last updated</div>
           <div style={{ color: COLORS.textMuted, fontSize: 13 }}>{timeStr}</div>
+          {csvDate && (
+            <div style={{ color: COLORS.textFaint, fontSize: 10, marginTop: 2 }}>
+              TX data as of {csvDate}
+            </div>
+          )}
+          <button
+            onClick={onRefresh}
+            style={{
+              marginTop: 6,
+              background: 'rgba(255,255,255,0.1)',
+              border: `1px solid ${COLORS.cardBorder}`,
+              color: COLORS.textMuted,
+              padding: '4px 12px',
+              borderRadius: 4,
+              cursor: 'pointer',
+              fontSize: 11,
+            }}
+          >
+            Update Now
+          </button>
         </div>
       </div>
     </div>
