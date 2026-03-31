@@ -10,6 +10,8 @@ const LATEST_PATH = resolve(DATA_DIR, 'texas-latest.json')
 const HISTORY_PATH = resolve(DATA_DIR, 'texas-history.json')
 const HISTORY_CAP = 720
 const CSV_URL = 'https://www.texaslottery.com/export/sites/lottery/Games/Scratch_Offs/scratchoff.csv'
+const ALL_GAMES_URL = 'https://www.texaslottery.com/export/sites/lottery/Games/Scratch_Offs/all.html'
+const BASE_URL = 'https://www.texaslottery.com'
 
 export async function parseCSV(csvText) {
   return parse(csvText, { columns: true, skip_empty_lines: true, trim: true, from_line: 2 })
@@ -34,7 +36,6 @@ export function groupByGame(rows) {
         tiers: [],
       }
     }
-    // TOTAL row provides sum of all prizes — use as ticket count proxy
     if (row['Prize Level'] === 'TOTAL') {
       games[id].totalPrizesPrinted = Number(row['Total Prizes in Level'])
       continue
@@ -53,7 +54,7 @@ export function computeGameMetrics(game, baseline) {
   const totalTicketsAtLaunch = baseline.totalTicketsAtLaunch
   const totalPrizeValueAtLaunch = baseline.totalPrizeValueAtLaunch
 
-  // Weighted claim rate to estimate tickets remaining
+  // Claim rate from prizes → estimate tickets remaining
   const totalPrinted = tiers.reduce((s, t) => s + t.printed, 0)
   const totalClaimed = tiers.reduce((s, t) => s + t.claimed, 0)
   const claimRateRaw = totalPrinted > 0 ? totalClaimed / totalPrinted : 0
@@ -111,13 +112,43 @@ export function computeGameMetrics(game, baseline) {
   }
 }
 
+// Fetch all.html and extract game number → detail page URL mapping
+export async function fetchGameURLMap() {
+  const res = await fetch(ALL_GAMES_URL)
+  if (!res.ok) return {}
+  const html = await res.text()
+  const map = {}
+  const regex = /title="View details for Game Number (\d+)" href="([^"]+)"/g
+  let match
+  while ((match = regex.exec(html)) !== null) {
+    map[match[1]] = BASE_URL + match[2]
+  }
+  return map
+}
+
+// Fetch a game detail page and extract total tickets and overall odds
+export async function fetchGameDetails(url) {
+  const res = await fetch(url)
+  if (!res.ok) return null
+  const html = await res.text()
+
+  const oddsMatch = html.match(/1 in ([\d,.]+)\*?\*?/)
+  const ticketsMatch = html.match(/approximately ([\d,]+)\*? tickets/)
+
+  if (!ticketsMatch) return null
+
+  return {
+    overallOdds: oddsMatch ? parseFloat(oddsMatch[1].replace(/,/g, '')) : null,
+    totalTickets: Number(ticketsMatch[1].replace(/,/g, '')),
+  }
+}
+
 function resolveTicketsAtLaunch(game, rows) {
+  // 1. Direct column in CSV (if present)
   const firstRow = rows.find(r => r['Game Number'] === game.id)
   if (firstRow?.['Total Tickets']) return Number(firstRow['Total Tickets'])
 
-  // TOTAL row prize count used as proxy for total tickets (prizes uniformly distributed among tickets)
-  if (game.totalPrizesPrinted) return game.totalPrizesPrinted
-
+  // 2. Overall Odds column in CSV (if present)
   const oddsRaw = firstRow?.['Overall Odds'] ?? firstRow?.['Odds']
   if (oddsRaw) {
     const match = String(oddsRaw).match(/[\d.]+$/)
@@ -128,15 +159,27 @@ function resolveTicketsAtLaunch(game, rows) {
     }
   }
 
+  // 3. Cannot resolve from CSV alone
   return null
 }
 
-function bootstrapBaseline(baseline, game, rawRows) {
+async function bootstrapBaseline(baseline, game, rawRows, gameURLMap) {
   if (baseline[game.id]) return baseline
 
-  const totalTicketsAtLaunch = resolveTicketsAtLaunch(game, rawRows)
+  // Try CSV columns first
+  let totalTicketsAtLaunch = resolveTicketsAtLaunch(game, rawRows)
+
+  // If not in CSV, scrape the game detail page
+  if (totalTicketsAtLaunch === null && gameURLMap[game.id]) {
+    const details = await fetchGameDetails(gameURLMap[game.id])
+    if (details) {
+      totalTicketsAtLaunch = details.totalTickets
+      console.log(`[scrape] Game ${game.id} "${game.name}" — ${totalTicketsAtLaunch.toLocaleString()} total tickets (odds: 1 in ${details.overallOdds})`)
+    }
+  }
+
   if (totalTicketsAtLaunch === null) {
-    console.warn(`[skip] Game ${game.id} "${game.name}" — cannot resolve total_tickets_at_launch. Skipping until CSV column is confirmed.`)
+    console.warn(`[skip] Game ${game.id} "${game.name}" — cannot resolve total tickets. Skipping.`)
     return baseline
   }
 
@@ -165,8 +208,8 @@ function loadBaseline() {
 function dataChanged(newLatest, existingPath) {
   if (!existsSync(existingPath)) return true
   const existing = JSON.parse(readFileSync(existingPath, 'utf-8'))
-  const { fetched_at: _a, ...newRest } = newLatest
-  const { fetched_at: _b, ...existingRest } = existing
+  const { fetched_at: _a, csv_last_modified: _c, ...newRest } = newLatest
+  const { fetched_at: _b, csv_last_modified: _d, ...existingRest } = existing
   return JSON.stringify(newRest) !== JSON.stringify(existingRest)
 }
 
@@ -189,8 +232,17 @@ export async function run() {
   const games = groupByGame(rows)
 
   let baseline = loadBaseline()
+
+  // Check which games need baseline bootstrapping
+  const newGames = Object.values(games).filter(g => !baseline[g.id])
+  let gameURLMap = {}
+  if (newGames.length > 0) {
+    console.log(`[fetch] ${newGames.length} new games — fetching detail pages for ticket counts...`)
+    gameURLMap = await fetchGameURLMap()
+  }
+
   for (const game of Object.values(games)) {
-    baseline = bootstrapBaseline(baseline, game, rows)
+    baseline = await bootstrapBaseline(baseline, game, rows, gameURLMap)
   }
 
   const computedGames = Object.values(games)
