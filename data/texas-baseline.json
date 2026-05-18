@@ -2663,6 +2663,31 @@
       }
     }
   },
+  "2715": {
+    "firstSeen": "2026-05-18T12:29:57.390Z",
+    "totalTicketsAtLaunch": 9173750,
+    "totalPrizeValueAtLaunch": 11917494,
+    "tiers": {
+      "2": {
+        "originalCount": 954072
+      },
+      "5": {
+        "originalCount": 587116
+      },
+      "10": {
+        "originalCount": 220188
+      },
+      "20": {
+        "originalCount": 110077
+      },
+      "50": {
+        "originalCount": 22971
+      },
+      "200": {
+        "originalCount": 7609
+      }
+    }
+  },
   "2720": {
     "firstSeen": "2026-03-31T03:42:48.746Z",
     "totalTicketsAtLaunch": 5121825,
@@ -3126,6 +3151,43 @@
       },
       "100000": {
         "originalCount": 4
+      }
+    }
+  },
+  "2765": {
+    "firstSeen": "2026-05-18T12:29:57.410Z",
+    "totalTicketsAtLaunch": 10130850,
+    "totalPrizeValueAtLaunch": 34451480,
+    "tiers": {
+      "5": {
+        "originalCount": 1182056
+      },
+      "10": {
+        "originalCount": 945537
+      },
+      "15": {
+        "originalCount": 135078
+      },
+      "20": {
+        "originalCount": 202598
+      },
+      "50": {
+        "originalCount": 135078
+      },
+      "100": {
+        "originalCount": 37310
+      },
+      "200": {
+        "originalCount": 6959
+      },
+      "500": {
+        "originalCount": 1012
+      },
+      "5000": {
+        "originalCount": 25
+      },
+      "100000": {
+        "originalCount": 5
       }
     }
   }
