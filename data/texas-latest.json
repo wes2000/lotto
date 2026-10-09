@@ -1,8 +1,8 @@
 {
   "state": "texas",
-  "fetched_at": "2026-10-08T17:43:49.992Z",
-  "csv_date": "10/07/2026",
-  "csv_last_modified": "Thu, 08 Oct 2026 10:20:43 GMT",
+  "fetched_at": "2026-10-09T17:20:04.640Z",
+  "csv_date": "10/08/2026",
+  "csv_last_modified": "Fri, 09 Oct 2026 10:23:43 GMT",
   "games": [
     {
       "id": "2430",
@@ -10,11 +10,11 @@
       "ticketPrice": 5,
       "totalTicketsPrinted": 20201100,
       "totalPrizeValueAtLaunch": 68685345,
-      "ticketsRemaining": 8100641,
-      "ticketsRemainingFraction": 0.4009999950497745,
-      "prizesRemainingValue": 27171230,
-      "buyAllCost": 40503205,
-      "buyAllProfit": -13331975,
+      "ticketsRemaining": 8080440,
+      "ticketsRemainingFraction": 0.4,
+      "prizesRemainingValue": 27112935,
+      "buyAllCost": 40402200,
+      "buyAllProfit": -13289265,
       "richnessRatio": 0.99,
       "tiers": [
         {
@@ -32,43 +32,43 @@
         {
           "prize": 500,
           "originalCount": 2537,
-          "remaining": 979,
+          "remaining": 976,
           "richnessRatio": 0.96
         },
         {
           "prize": 100,
           "originalCount": 66501,
-          "remaining": 25751,
+          "remaining": 25681,
           "richnessRatio": 0.97
         },
         {
           "prize": 50,
           "originalCount": 336757,
-          "remaining": 131136,
+          "remaining": 130830,
           "richnessRatio": 0.97
         },
         {
           "prize": 20,
           "originalCount": 403915,
-          "remaining": 158020,
+          "remaining": 157679,
           "richnessRatio": 0.98
         },
         {
           "prize": 15,
           "originalCount": 807963,
-          "remaining": 317589,
+          "remaining": 316934,
           "richnessRatio": 0.98
         },
         {
           "prize": 10,
           "originalCount": 1346695,
-          "remaining": 534224,
+          "remaining": 533142,
           "richnessRatio": 0.99
         },
         {
           "prize": 5,
           "originalCount": 1750840,
-          "remaining": 721671,
+          "remaining": 720265,
           "richnessRatio": 1.03
         }
       ]
@@ -81,9 +81,9 @@
       "totalPrizeValueAtLaunch": 735331950,
       "ticketsRemaining": 8610348,
       "ticketsRemainingFraction": 0.9380000490224114,
-      "prizesRemainingValue": 692461000,
+      "prizesRemainingValue": 691930900,
       "buyAllCost": 861034800,
-      "buyAllProfit": -168573800,
+      "buyAllProfit": -169103900,
       "richnessRatio": 1,
       "tiers": [
         {
@@ -107,31 +107,31 @@
         {
           "prize": 1000,
           "originalCount": 25787,
-          "remaining": 24378,
+          "remaining": 24361,
           "richnessRatio": 1.01
         },
         {
           "prize": 500,
           "originalCount": 459042,
-          "remaining": 430076,
+          "remaining": 429708,
           "richnessRatio": 1
         },
         {
           "prize": 300,
           "originalCount": 458979,
-          "remaining": 430472,
+          "remaining": 430136,
           "richnessRatio": 1
         },
         {
           "prize": 200,
           "originalCount": 917874,
-          "remaining": 861570,
+          "remaining": 860844,
           "richnessRatio": 1
         },
         {
           "prize": 150,
           "originalCount": 764703,
-          "remaining": 718196,
+          "remaining": 717642,
           "richnessRatio": 1
         }
       ]
@@ -142,11 +142,11 @@
       "ticketPrice": 5,
       "totalTicketsPrinted": 7330275,
       "totalPrizeValueAtLaunch": 24977515,
-      "ticketsRemaining": 2880798,
-      "ticketsRemainingFraction": 0.39299998976846023,
-      "prizesRemainingValue": 9874135,
-      "buyAllCost": 14403990,
-      "buyAllProfit": -4529855,
+      "ticketsRemaining": 2873468,
+      "ticketsRemainingFraction": 0.392000027284106,
+      "prizesRemainingValue": 9853510,
+      "buyAllCost": 14367340,
+      "buyAllProfit": -4513830,
       "richnessRatio": 1.01,
       "tiers": [
         {
@@ -159,48 +159,48 @@
           "prize": 1000,
           "originalCount": 62,
           "remaining": 31,
-          "richnessRatio": 1.27
+          "richnessRatio": 1.28
         },
         {
           "prize": 500,
           "originalCount": 1204,
-          "remaining": 472,
-          "richnessRatio": 1
+          "remaining": 469,
+          "richnessRatio": 0.99
         },
         {
           "prize": 200,
           "originalCount": 2369,
-          "remaining": 915,
+          "remaining": 914,
           "richnessRatio": 0.98
         },
         {
           "prize": 100,
           "originalCount": 19976,
-          "remaining": 7621,
+          "remaining": 7610,
           "richnessRatio": 0.97
         },
         {
           "prize": 50,
           "originalCount": 114109,
-          "remaining": 43127,
+          "remaining": 43036,
           "richnessRatio": 0.96
         },
         {
           "prize": 20,
           "originalCount": 293130,
-          "remaining": 112330,
+          "remaining": 112085,
           "richnessRatio": 0.98
         },
         {
           "prize": 10,
           "originalCount": 586584,
-          "remaining": 229342,
-          "richnessRatio": 0.99
+          "remaining": 228851,
+          "richnessRatio": 1
         },
         {
           "prize": 5,
           "originalCount": 781645,
-          "remaining": 313133,
+          "remaining": 312440,
           "richnessRatio": 1.02
         }
       ]
@@ -211,18 +211,18 @@
       "ticketPrice": 100,
       "totalTicketsPrinted": 6027705,
       "totalPrizeValueAtLaunch": 482071600,
-      "ticketsRemaining": 3128379,
-      "ticketsRemainingFraction": 0.5190000174195651,
-      "prizesRemainingValue": 249846300,
-      "buyAllCost": 312837900,
-      "buyAllProfit": -62991600,
+      "ticketsRemaining": 3122351,
+      "ticketsRemainingFraction": 0.5179999684788821,
+      "prizesRemainingValue": 249409700,
+      "buyAllCost": 312235100,
+      "buyAllProfit": -62825400,
       "richnessRatio": 1,
       "tiers": [
         {
           "prize": 7500000,
           "originalCount": 4,
           "remaining": 2,
-          "richnessRatio": 0.96
+          "richnessRatio": 0.97
         },
         {
           "prize": 100000,
@@ -239,37 +239,37 @@
         {
           "prize": 5000,
           "originalCount": 2314,
-          "remaining": 1206,
+          "remaining": 1202,
           "richnessRatio": 1
         },
         {
           "prize": 1000,
           "originalCount": 54123,
-          "remaining": 28629,
+          "remaining": 28570,
           "richnessRatio": 1.02
         },
         {
           "prize": 500,
           "originalCount": 301489,
-          "remaining": 155243,
+          "remaining": 154944,
           "richnessRatio": 0.99
         },
         {
           "prize": 300,
           "originalCount": 100437,
-          "remaining": 51892,
+          "remaining": 51799,
           "richnessRatio": 1
         },
         {
           "prize": 200,
           "originalCount": 602484,
-          "remaining": 312957,
+          "remaining": 312411,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 803862,
-          "remaining": 417668,
+          "remaining": 416958,
           "richnessRatio": 1
         }
       ]
@@ -280,11 +280,11 @@
       "ticketPrice": 50,
       "totalTicketsPrinted": 4531160,
       "totalPrizeValueAtLaunch": 176868700,
-      "ticketsRemaining": 2637135,
-      "ticketsRemainingFraction": 0.5819999735167154,
-      "prizesRemainingValue": 102482350,
-      "buyAllCost": 131856750,
-      "buyAllProfit": -29374400,
+      "ticketsRemaining": 2628073,
+      "ticketsRemainingFraction": 0.5800000441388077,
+      "prizesRemainingValue": 102212950,
+      "buyAllCost": 131403650,
+      "buyAllProfit": -29190700,
       "richnessRatio": 1,
       "tiers": [
         {
@@ -302,37 +302,37 @@
         {
           "prize": 2000,
           "originalCount": 228,
-          "remaining": 135,
-          "richnessRatio": 1.02
+          "remaining": 134,
+          "richnessRatio": 1.01
         },
         {
           "prize": 500,
           "originalCount": 72448,
-          "remaining": 42031,
+          "remaining": 41904,
           "richnessRatio": 1
         },
         {
           "prize": 250,
           "originalCount": 113303,
-          "remaining": 65664,
+          "remaining": 65500,
           "richnessRatio": 1
         },
         {
           "prize": 150,
           "originalCount": 169941,
-          "remaining": 98398,
-          "richnessRatio": 0.99
+          "remaining": 98139,
+          "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 566617,
-          "remaining": 329976,
+          "remaining": 329133,
           "richnessRatio": 1
         },
         {
           "prize": 75,
           "originalCount": 339468,
-          "remaining": 198314,
+          "remaining": 197784,
           "richnessRatio": 1
         }
       ]
@@ -343,11 +343,11 @@
       "ticketPrice": 20,
       "totalTicketsPrinted": 8186150,
       "totalPrizeValueAtLaunch": 122525600,
-      "ticketsRemaining": 5722119,
-      "ticketsRemainingFraction": 0.699000018323632,
-      "prizesRemainingValue": 84740900,
-      "buyAllCost": 114442380,
-      "buyAllProfit": -29701480,
+      "ticketsRemaining": 5705747,
+      "ticketsRemainingFraction": 0.697000054970896,
+      "prizesRemainingValue": 84529300,
+      "buyAllCost": 114114940,
+      "buyAllProfit": -29585640,
       "richnessRatio": 0.99,
       "tiers": [
         {
@@ -371,43 +371,43 @@
         {
           "prize": 2000,
           "originalCount": 259,
-          "remaining": 195,
-          "richnessRatio": 1.08
+          "remaining": 193,
+          "richnessRatio": 1.07
         },
         {
           "prize": 500,
           "originalCount": 8256,
-          "remaining": 5752,
+          "remaining": 5738,
           "richnessRatio": 1
         },
         {
           "prize": 200,
           "originalCount": 102652,
-          "remaining": 71660,
+          "remaining": 71471,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 327446,
-          "remaining": 228168,
+          "remaining": 227577,
           "richnessRatio": 1
         },
         {
           "prize": 50,
           "originalCount": 523815,
-          "remaining": 365017,
+          "remaining": 364130,
           "richnessRatio": 1
         },
         {
           "prize": 30,
           "originalCount": 458485,
-          "remaining": 320713,
+          "remaining": 319902,
           "richnessRatio": 1
         },
         {
           "prize": 20,
           "originalCount": 982465,
-          "remaining": 688693,
+          "remaining": 686942,
           "richnessRatio": 1
         }
       ]
@@ -418,60 +418,60 @@
       "ticketPrice": 50,
       "totalTicketsPrinted": 6039620,
       "totalPrizeValueAtLaunch": 235482950,
-      "ticketsRemaining": 1884361,
-      "ticketsRemainingFraction": 0.31199992714773445,
-      "prizesRemainingValue": 77033900,
-      "buyAllCost": 94218050,
-      "buyAllProfit": -17184150,
+      "ticketsRemaining": 1878322,
+      "ticketsRemainingFraction": 0.3110000298031995,
+      "prizesRemainingValue": 76882250,
+      "buyAllCost": 93916100,
+      "buyAllProfit": -17033850,
       "richnessRatio": 1.05,
       "tiers": [
         {
           "prize": 5000000,
           "originalCount": 4,
           "remaining": 2,
-          "richnessRatio": 1.6
+          "richnessRatio": 1.61
         },
         {
           "prize": 10000,
           "originalCount": 112,
           "remaining": 34,
-          "richnessRatio": 0.97
+          "richnessRatio": 0.98
         },
         {
           "prize": 1000,
           "originalCount": 5691,
-          "remaining": 1849,
+          "remaining": 1845,
           "richnessRatio": 1.04
         },
         {
           "prize": 500,
           "originalCount": 103290,
-          "remaining": 31942,
+          "remaining": 31852,
           "richnessRatio": 0.99
         },
         {
           "prize": 200,
           "originalCount": 181127,
-          "remaining": 56068,
+          "remaining": 55956,
           "richnessRatio": 0.99
         },
         {
           "prize": 150,
           "originalCount": 301981,
-          "remaining": 94113,
+          "remaining": 93901,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 453117,
-          "remaining": 140855,
+          "remaining": 140572,
           "richnessRatio": 1
         },
         {
           "prize": 50,
           "originalCount": 603854,
-          "remaining": 189157,
-          "richnessRatio": 1
+          "remaining": 188754,
+          "richnessRatio": 1.01
         }
       ]
     },
@@ -481,18 +481,18 @@
       "ticketPrice": 100,
       "totalTicketsPrinted": 5610750,
       "totalPrizeValueAtLaunch": 448634200,
-      "ticketsRemaining": 3585269,
-      "ticketsRemainingFraction": 0.638999955442677,
-      "prizesRemainingValue": 288887550,
-      "buyAllCost": 358526900,
-      "buyAllProfit": -69639350,
+      "ticketsRemaining": 3579659,
+      "ticketsRemainingFraction": 0.638000089114646,
+      "prizesRemainingValue": 288471550,
+      "buyAllCost": 357965900,
+      "buyAllProfit": -69494350,
       "richnessRatio": 1.01,
       "tiers": [
         {
           "prize": 5000000,
           "originalCount": 4,
           "remaining": 3,
-          "richnessRatio": 1.17
+          "richnessRatio": 1.18
         },
         {
           "prize": 50000,
@@ -503,37 +503,37 @@
         {
           "prize": 2500,
           "originalCount": 2825,
-          "remaining": 1827,
+          "remaining": 1822,
           "richnessRatio": 1.01
         },
         {
           "prize": 1000,
           "originalCount": 37116,
-          "remaining": 24082,
+          "remaining": 24043,
           "richnessRatio": 1.02
         },
         {
           "prize": 500,
           "originalCount": 374050,
-          "remaining": 237776,
+          "remaining": 237417,
           "richnessRatio": 0.99
         },
         {
           "prize": 300,
           "originalCount": 187035,
-          "remaining": 119100,
+          "remaining": 118927,
           "richnessRatio": 1
         },
         {
           "prize": 200,
           "originalCount": 280463,
-          "remaining": 179666,
+          "remaining": 179398,
           "richnessRatio": 1
         },
         {
           "prize": 150,
           "originalCount": 561184,
-          "remaining": 359579,
+          "remaining": 359049,
           "richnessRatio": 1
         }
       ]
@@ -544,18 +544,18 @@
       "ticketPrice": 3,
       "totalTicketsPrinted": 32682825,
       "totalPrizeValueAtLaunch": 64702947,
-      "ticketsRemaining": 7680464,
-      "ticketsRemainingFraction": 0.2350000038246388,
-      "prizesRemainingValue": 14605633,
-      "buyAllCost": 23041392,
-      "buyAllProfit": -8435759,
+      "ticketsRemaining": 7647781,
+      "ticketsRemainingFraction": 0.2339999984701445,
+      "prizesRemainingValue": 14522168,
+      "buyAllCost": 22943343,
+      "buyAllProfit": -8421175,
       "richnessRatio": 0.96,
       "tiers": [
         {
           "prize": 50000,
           "originalCount": 14,
           "remaining": 3,
-          "richnessRatio": 0.91
+          "richnessRatio": 0.92
         },
         {
           "prize": 3000,
@@ -566,74 +566,74 @@
         {
           "prize": 250,
           "originalCount": 4891,
-          "remaining": 1237,
-          "richnessRatio": 1.08
+          "remaining": 1230,
+          "richnessRatio": 1.07
         },
         {
           "prize": 80,
           "originalCount": 15227,
-          "remaining": 3139,
-          "richnessRatio": 0.88
+          "remaining": 3114,
+          "richnessRatio": 0.87
         },
         {
           "prize": 50,
           "originalCount": 32723,
-          "remaining": 7262,
+          "remaining": 7219,
           "richnessRatio": 0.94
         },
         {
           "prize": 33,
           "originalCount": 104571,
-          "remaining": 21503,
-          "richnessRatio": 0.88
+          "remaining": 21378,
+          "richnessRatio": 0.87
         },
         {
           "prize": 30,
           "originalCount": 217898,
-          "remaining": 50209,
+          "remaining": 49925,
           "richnessRatio": 0.98
         },
         {
           "prize": 20,
           "originalCount": 217776,
-          "remaining": 47862,
-          "richnessRatio": 0.94
+          "remaining": 47581,
+          "richnessRatio": 0.93
         },
         {
           "prize": 18,
           "originalCount": 326855,
-          "remaining": 68658,
+          "remaining": 68220,
           "richnessRatio": 0.89
         },
         {
           "prize": 15,
           "originalCount": 653747,
-          "remaining": 139231,
-          "richnessRatio": 0.91
+          "remaining": 138331,
+          "richnessRatio": 0.9
         },
         {
           "prize": 10,
           "originalCount": 653697,
-          "remaining": 148107,
+          "remaining": 147258,
           "richnessRatio": 0.96
         },
         {
           "prize": 8,
           "originalCount": 871780,
-          "remaining": 192893,
+          "remaining": 191791,
           "richnessRatio": 0.94
         },
         {
           "prize": 5,
           "originalCount": 1307019,
-          "remaining": 310072,
+          "remaining": 308356,
           "richnessRatio": 1.01
         },
         {
           "prize": 3,
           "originalCount": 3050228,
-          "remaining": 764057,
-          "richnessRatio": 1.07
+          "remaining": 760047,
+          "richnessRatio": 1.06
         }
       ]
     },
@@ -643,78 +643,78 @@
       "ticketPrice": 10,
       "totalTicketsPrinted": 8199350,
       "totalPrizeValueAtLaunch": 57398070,
-      "ticketsRemaining": 951125,
-      "ticketsRemainingFraction": 0.11600004878435485,
-      "prizesRemainingValue": 6451120,
-      "buyAllCost": 9511250,
-      "buyAllProfit": -3060130,
-      "richnessRatio": 0.97,
+      "ticketsRemaining": 942925,
+      "ticketsRemainingFraction": 0.11499996950977821,
+      "prizesRemainingValue": 6362030,
+      "buyAllCost": 9429250,
+      "buyAllProfit": -3067220,
+      "richnessRatio": 0.96,
       "tiers": [
         {
           "prize": 250000,
           "originalCount": 8,
           "remaining": 1,
-          "richnessRatio": 1.08
+          "richnessRatio": 1.09
         },
         {
           "prize": 10000,
           "originalCount": 72,
           "remaining": 10,
-          "richnessRatio": 1.2
+          "richnessRatio": 1.21
         },
         {
           "prize": 1000,
           "originalCount": 624,
           "remaining": 72,
-          "richnessRatio": 0.99
+          "richnessRatio": 1
         },
         {
           "prize": 500,
           "originalCount": 4528,
-          "remaining": 458,
-          "richnessRatio": 0.87
+          "remaining": 446,
+          "richnessRatio": 0.86
         },
         {
           "prize": 200,
           "originalCount": 9264,
-          "remaining": 954,
+          "remaining": 945,
           "richnessRatio": 0.89
         },
         {
           "prize": 100,
           "originalCount": 54903,
-          "remaining": 5530,
-          "richnessRatio": 0.87
+          "remaining": 5440,
+          "richnessRatio": 0.86
         },
         {
           "prize": 50,
           "originalCount": 167391,
-          "remaining": 16994,
-          "richnessRatio": 0.88
+          "remaining": 16724,
+          "richnessRatio": 0.87
         },
         {
           "prize": 40,
           "originalCount": 95659,
-          "remaining": 10508,
-          "richnessRatio": 0.95
+          "remaining": 10349,
+          "richnessRatio": 0.94
         },
         {
           "prize": 30,
           "originalCount": 191325,
-          "remaining": 22381,
-          "richnessRatio": 1.01
+          "remaining": 22079,
+          "richnessRatio": 1
         },
         {
           "prize": 20,
           "originalCount": 628592,
-          "remaining": 72037,
-          "richnessRatio": 0.99
+          "remaining": 71004,
+          "richnessRatio": 0.98
         },
         {
           "prize": 10,
           "originalCount": 1393947,
-          "remaining": 167413,
-          "richnessRatio": 1.04
+          "remaining": 165142,
+          "richnessRatio": 1.03
         }
       ]
     },
@@ -724,11 +724,11 @@
       "ticketPrice": 10,
       "totalTicketsPrinted": 8177500,
       "totalPrizeValueAtLaunch": 57218020,
-      "ticketsRemaining": 2355120,
-      "ticketsRemainingFraction": 0.288,
-      "prizesRemainingValue": 16125550,
-      "buyAllCost": 23551200,
-      "buyAllProfit": -7425650,
+      "ticketsRemaining": 2346943,
+      "ticketsRemainingFraction": 0.2870000611433812,
+      "prizesRemainingValue": 16072360,
+      "buyAllCost": 23469430,
+      "buyAllProfit": -7397070,
       "richnessRatio": 0.98,
       "tiers": [
         {
@@ -752,43 +752,43 @@
         {
           "prize": 500,
           "originalCount": 2110,
-          "remaining": 577,
+          "remaining": 574,
           "richnessRatio": 0.95
         },
         {
           "prize": 200,
           "originalCount": 10953,
-          "remaining": 3130,
+          "remaining": 3113,
           "richnessRatio": 0.99
         },
         {
           "prize": 100,
           "originalCount": 81937,
-          "remaining": 23189,
+          "remaining": 23101,
           "richnessRatio": 0.98
         },
         {
           "prize": 50,
           "originalCount": 245572,
-          "remaining": 68704,
+          "remaining": 68470,
           "richnessRatio": 0.97
         },
         {
           "prize": 30,
           "originalCount": 326606,
-          "remaining": 91492,
+          "remaining": 91206,
           "richnessRatio": 0.97
         },
         {
           "prize": 20,
           "originalCount": 491144,
-          "remaining": 139393,
+          "remaining": 138907,
           "richnessRatio": 0.99
         },
         {
           "prize": 10,
           "originalCount": 980806,
-          "remaining": 289433,
+          "remaining": 288484,
           "richnessRatio": 1.02
         }
       ]
@@ -799,18 +799,18 @@
       "ticketPrice": 2,
       "totalTicketsPrinted": 8936625,
       "totalPrizeValueAtLaunch": 11621735,
-      "ticketsRemaining": 1063458,
-      "ticketsRemainingFraction": 0.11899995803784987,
-      "prizesRemainingValue": 1182744,
-      "buyAllCost": 2126916,
-      "buyAllProfit": -944172,
+      "ticketsRemaining": 1054522,
+      "ticketsRemainingFraction": 0.11800002797476676,
+      "prizesRemainingValue": 1178207,
+      "buyAllCost": 2109044,
+      "buyAllProfit": -930837,
       "richnessRatio": 0.86,
       "tiers": [
         {
           "prize": 30000,
           "originalCount": 5,
           "remaining": 1,
-          "richnessRatio": 1.68
+          "richnessRatio": 1.69
         },
         {
           "prize": 1000,
@@ -822,43 +822,43 @@
           "prize": 100,
           "originalCount": 1575,
           "remaining": 139,
-          "richnessRatio": 0.74
+          "richnessRatio": 0.75
         },
         {
           "prize": 50,
           "originalCount": 17224,
-          "remaining": 1425,
+          "remaining": 1415,
           "richnessRatio": 0.7
         },
         {
           "prize": 40,
           "originalCount": 71493,
-          "remaining": 5965,
+          "remaining": 5934,
           "richnessRatio": 0.7
         },
         {
           "prize": 20,
           "originalCount": 71493,
-          "remaining": 6315,
-          "richnessRatio": 0.74
+          "remaining": 6294,
+          "richnessRatio": 0.75
         },
         {
           "prize": 10,
           "originalCount": 143043,
-          "remaining": 14239,
+          "remaining": 14188,
           "richnessRatio": 0.84
         },
         {
           "prize": 5,
           "originalCount": 571887,
-          "remaining": 62378,
+          "remaining": 62163,
           "richnessRatio": 0.92
         },
         {
           "prize": 2,
           "originalCount": 929295,
-          "remaining": 124207,
-          "richnessRatio": 1.12
+          "remaining": 123811,
+          "richnessRatio": 1.13
         }
       ]
     },
@@ -868,24 +868,24 @@
       "ticketPrice": 2,
       "totalTicketsPrinted": 18121000,
       "totalPrizeValueAtLaunch": 23603263,
-      "ticketsRemaining": 7302763,
-      "ticketsRemainingFraction": 0.403,
-      "prizesRemainingValue": 9335530,
-      "buyAllCost": 14605526,
-      "buyAllProfit": -5269996,
+      "ticketsRemaining": 7284642,
+      "ticketsRemainingFraction": 0.402,
+      "prizesRemainingValue": 9311912,
+      "buyAllCost": 14569284,
+      "buyAllProfit": -5257372,
       "richnessRatio": 0.98,
       "tiers": [
         {
           "prize": 30000,
           "originalCount": 10,
           "remaining": 4,
-          "richnessRatio": 0.99
+          "richnessRatio": 1
         },
         {
           "prize": 1000,
           "originalCount": 30,
           "remaining": 9,
-          "richnessRatio": 0.74
+          "richnessRatio": 0.75
         },
         {
           "prize": 500,
@@ -896,61 +896,61 @@
         {
           "prize": 100,
           "originalCount": 3625,
-          "remaining": 1414,
+          "remaining": 1411,
           "richnessRatio": 0.97
         },
         {
           "prize": 50,
           "originalCount": 14326,
-          "remaining": 5645,
+          "remaining": 5632,
           "richnessRatio": 0.98
         },
         {
           "prize": 30,
           "originalCount": 22706,
-          "remaining": 8765,
+          "remaining": 8747,
           "richnessRatio": 0.96
         },
         {
           "prize": 20,
           "originalCount": 144968,
-          "remaining": 56340,
+          "remaining": 56186,
           "richnessRatio": 0.96
         },
         {
           "prize": 15,
           "originalCount": 181147,
-          "remaining": 68270,
-          "richnessRatio": 0.94
+          "remaining": 68085,
+          "richnessRatio": 0.93
         },
         {
           "prize": 10,
           "originalCount": 289962,
-          "remaining": 114570,
+          "remaining": 114267,
           "richnessRatio": 0.98
         },
         {
           "prize": 6,
           "originalCount": 434904,
-          "remaining": 173165,
+          "remaining": 172679,
           "richnessRatio": 0.99
         },
         {
           "prize": 5,
           "originalCount": 870000,
-          "remaining": 342816,
+          "remaining": 341885,
           "richnessRatio": 0.98
         },
         {
           "prize": 3,
           "originalCount": 652246,
-          "remaining": 268576,
+          "remaining": 267946,
           "richnessRatio": 1.02
         },
         {
           "prize": 2,
           "originalCount": 1812218,
-          "remaining": 744791,
+          "remaining": 742900,
           "richnessRatio": 1.02
         }
       ]
@@ -961,72 +961,72 @@
       "ticketPrice": 5,
       "totalTicketsPrinted": 59199675,
       "totalPrizeValueAtLaunch": 201351245,
-      "ticketsRemaining": 4913573,
-      "ticketsRemainingFraction": 0.08299999957770038,
-      "prizesRemainingValue": 15103780,
-      "buyAllCost": 24567865,
-      "buyAllProfit": -9464085,
-      "richnessRatio": 0.9,
+      "ticketsRemaining": 4854373,
+      "ticketsRemainingFraction": 0.08199999408780538,
+      "prizesRemainingValue": 15043295,
+      "buyAllCost": 24271865,
+      "buyAllProfit": -9228570,
+      "richnessRatio": 0.91,
       "tiers": [
         {
           "prize": 100000,
           "originalCount": 30,
           "remaining": 6,
-          "richnessRatio": 2.41
+          "richnessRatio": 2.44
         },
         {
           "prize": 5000,
           "originalCount": 148,
           "remaining": 29,
-          "richnessRatio": 2.36
+          "richnessRatio": 2.39
         },
         {
           "prize": 500,
           "originalCount": 5937,
-          "remaining": 366,
+          "remaining": 362,
           "richnessRatio": 0.74
         },
         {
           "prize": 200,
           "originalCount": 40526,
-          "remaining": 2426,
-          "richnessRatio": 0.72
+          "remaining": 2415,
+          "richnessRatio": 0.73
         },
         {
           "prize": 100,
           "originalCount": 247251,
-          "remaining": 15320,
+          "remaining": 15259,
           "richnessRatio": 0.75
         },
         {
           "prize": 50,
           "originalCount": 789329,
-          "remaining": 50876,
+          "remaining": 50656,
           "richnessRatio": 0.78
         },
         {
           "prize": 20,
           "originalCount": 789329,
-          "remaining": 51135,
-          "richnessRatio": 0.78
+          "remaining": 50880,
+          "richnessRatio": 0.79
         },
         {
           "prize": 15,
           "originalCount": 789329,
-          "remaining": 53290,
-          "richnessRatio": 0.81
+          "remaining": 53041,
+          "richnessRatio": 0.82
         },
         {
           "prize": 10,
           "originalCount": 5919900,
-          "remaining": 436271,
+          "remaining": 434366,
           "richnessRatio": 0.89
         },
         {
           "prize": 5,
           "originalCount": 7104096,
-          "remaining": 686004,
-          "richnessRatio": 1.16
+          "remaining": 683744,
+          "richnessRatio": 1.17
         }
       ]
     },
@@ -1036,29 +1036,29 @@
       "ticketPrice": 10,
       "totalTicketsPrinted": 10202400,
       "totalPrizeValueAtLaunch": 71401650,
-      "ticketsRemaining": 7539574,
-      "ticketsRemainingFraction": 0.7390000392064612,
-      "prizesRemainingValue": 52761050,
-      "buyAllCost": 75395740,
-      "buyAllProfit": -22634690,
+      "ticketsRemaining": 7519169,
+      "ticketsRemainingFraction": 0.7370000196032306,
+      "prizesRemainingValue": 52567200,
+      "buyAllCost": 75191690,
+      "buyAllProfit": -22624490,
       "richnessRatio": 1,
       "tiers": [
         {
           "prize": 500,
           "originalCount": 10176,
-          "remaining": 7512,
+          "remaining": 7491,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 254956,
-          "remaining": 187915,
+          "remaining": 187219,
           "richnessRatio": 1
         },
         {
           "prize": 50,
           "originalCount": 816361,
-          "remaining": 604271,
+          "remaining": 601996,
           "richnessRatio": 1
         }
       ]
@@ -1069,90 +1069,90 @@
       "ticketPrice": 20,
       "totalTicketsPrinted": 24210225,
       "totalPrizeValueAtLaunch": 363571530,
-      "ticketsRemaining": 1961028,
-      "ticketsRemainingFraction": 0.08099999070640608,
-      "prizesRemainingValue": 29735850,
-      "buyAllCost": 39220560,
-      "buyAllProfit": -9484710,
+      "ticketsRemaining": 1936818,
+      "ticketsRemainingFraction": 0.08,
+      "prizesRemainingValue": 29443100,
+      "buyAllCost": 38736360,
+      "buyAllProfit": -9293260,
       "richnessRatio": 1.01,
       "tiers": [
         {
           "prize": 1000000,
           "originalCount": 10,
           "remaining": 1,
-          "richnessRatio": 1.23
+          "richnessRatio": 1.25
         },
         {
           "prize": 20000,
           "originalCount": 40,
-          "remaining": 10,
-          "richnessRatio": 3.09
+          "remaining": 9,
+          "richnessRatio": 2.81
         },
         {
           "prize": 5000,
           "originalCount": 328,
           "remaining": 30,
-          "richnessRatio": 1.13
+          "richnessRatio": 1.14
         },
         {
           "prize": 1000,
           "originalCount": 2415,
-          "remaining": 256,
-          "richnessRatio": 1.31
+          "remaining": 255,
+          "richnessRatio": 1.32
         },
         {
           "prize": 500,
           "originalCount": 11290,
-          "remaining": 869,
+          "remaining": 859,
           "richnessRatio": 0.95
         },
         {
           "prize": 250,
           "originalCount": 63014,
-          "remaining": 4927,
+          "remaining": 4888,
           "richnessRatio": 0.97
         },
         {
           "prize": 200,
           "originalCount": 174386,
-          "remaining": 14280,
+          "remaining": 14132,
           "richnessRatio": 1.01
         },
         {
           "prize": 150,
           "originalCount": 193706,
-          "remaining": 15485,
+          "remaining": 15325,
           "richnessRatio": 0.99
         },
         {
           "prize": 100,
           "originalCount": 866645,
-          "remaining": 70571,
+          "remaining": 69887,
           "richnessRatio": 1.01
         },
         {
           "prize": 50,
           "originalCount": 968409,
-          "remaining": 75568,
-          "richnessRatio": 0.96
+          "remaining": 74860,
+          "richnessRatio": 0.97
         },
         {
           "prize": 40,
           "originalCount": 484034,
-          "remaining": 38265,
+          "remaining": 37895,
           "richnessRatio": 0.98
         },
         {
           "prize": 30,
           "originalCount": 1695038,
-          "remaining": 136995,
+          "remaining": 135653,
           "richnessRatio": 1
         },
         {
           "prize": 20,
           "originalCount": 2904374,
-          "remaining": 240445,
-          "richnessRatio": 1.02
+          "remaining": 238218,
+          "richnessRatio": 1.03
         }
       ]
     },
@@ -1164,9 +1164,9 @@
       "totalPrizeValueAtLaunch": 123007040,
       "ticketsRemaining": 2073974,
       "ticketsRemainingFraction": 0.25300002134790683,
-      "prizesRemainingValue": 31039580,
+      "prizesRemainingValue": 31009420,
       "buyAllCost": 41479480,
-      "buyAllProfit": -10439900,
+      "buyAllProfit": -10470060,
       "richnessRatio": 1,
       "tiers": [
         {
@@ -1196,43 +1196,43 @@
         {
           "prize": 500,
           "originalCount": 6929,
-          "remaining": 1786,
+          "remaining": 1785,
           "richnessRatio": 1.02
         },
         {
           "prize": 200,
           "originalCount": 82205,
-          "remaining": 20857,
+          "remaining": 20832,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 327901,
-          "remaining": 82509,
+          "remaining": 82426,
           "richnessRatio": 0.99
         },
         {
           "prize": 80,
           "originalCount": 131116,
-          "remaining": 32782,
+          "remaining": 32752,
           "richnessRatio": 0.99
         },
         {
           "prize": 60,
           "originalCount": 262523,
-          "remaining": 65897,
+          "remaining": 65830,
           "richnessRatio": 0.99
         },
         {
           "prize": 40,
           "originalCount": 524546,
-          "remaining": 131843,
+          "remaining": 131703,
           "richnessRatio": 0.99
         },
         {
           "prize": 20,
           "originalCount": 852147,
-          "remaining": 217209,
+          "remaining": 216992,
           "richnessRatio": 1.01
         }
       ]
@@ -1243,18 +1243,18 @@
       "ticketPrice": 20,
       "totalTicketsPrinted": 15267250,
       "totalPrizeValueAtLaunch": 229011760,
-      "ticketsRemaining": 519087,
-      "ticketsRemainingFraction": 0.03400003274984034,
-      "prizesRemainingValue": 7661210,
-      "buyAllCost": 10381740,
-      "buyAllProfit": -2720530,
-      "richnessRatio": 0.98,
+      "ticketsRemaining": 503819,
+      "ticketsRemainingFraction": 0.032999983625079825,
+      "prizesRemainingValue": 7587650,
+      "buyAllCost": 10076380,
+      "buyAllProfit": -2488730,
+      "richnessRatio": 1,
       "tiers": [
         {
           "prize": 1000000,
           "originalCount": 6,
           "remaining": 1,
-          "richnessRatio": 4.9
+          "richnessRatio": 5.05
         },
         {
           "prize": 20000,
@@ -1266,49 +1266,49 @@
           "prize": 2000,
           "originalCount": 259,
           "remaining": 6,
-          "richnessRatio": 0.68
+          "richnessRatio": 0.7
         },
         {
           "prize": 500,
           "originalCount": 10879,
-          "remaining": 262,
-          "richnessRatio": 0.71
+          "remaining": 261,
+          "richnessRatio": 0.73
         },
         {
           "prize": 200,
           "originalCount": 127255,
-          "remaining": 3366,
-          "richnessRatio": 0.78
+          "remaining": 3320,
+          "richnessRatio": 0.79
         },
         {
           "prize": 150,
           "originalCount": 66876,
-          "remaining": 1859,
-          "richnessRatio": 0.82
+          "remaining": 1845,
+          "richnessRatio": 0.84
         },
         {
           "prize": 100,
           "originalCount": 712532,
-          "remaining": 20094,
-          "richnessRatio": 0.83
+          "remaining": 19857,
+          "richnessRatio": 0.84
         },
         {
           "prize": 50,
           "originalCount": 814222,
-          "remaining": 21908,
-          "richnessRatio": 0.79
+          "remaining": 21622,
+          "richnessRatio": 0.8
         },
         {
           "prize": 40,
           "originalCount": 712485,
-          "remaining": 19699,
-          "richnessRatio": 0.81
+          "remaining": 19466,
+          "richnessRatio": 0.83
         },
         {
           "prize": 20,
           "originalCount": 2035408,
-          "remaining": 83670,
-          "richnessRatio": 1.21
+          "remaining": 82948,
+          "richnessRatio": 1.23
         }
       ]
     },
@@ -1318,89 +1318,89 @@
       "ticketPrice": 50,
       "totalTicketsPrinted": 8031760,
       "totalPrizeValueAtLaunch": 313419025,
-      "ticketsRemaining": 2007940,
-      "ticketsRemainingFraction": 0.25,
-      "prizesRemainingValue": 81513000,
-      "buyAllCost": 100397000,
-      "buyAllProfit": -18884000,
+      "ticketsRemaining": 1991876,
+      "ticketsRemainingFraction": 0.24799994023725808,
+      "prizesRemainingValue": 80974900,
+      "buyAllCost": 99593800,
+      "buyAllProfit": -18618900,
       "richnessRatio": 1.04,
       "tiers": [
         {
           "prize": 3000000,
           "originalCount": 4,
           "remaining": 2,
-          "richnessRatio": 2
+          "richnessRatio": 2.02
         },
         {
           "prize": 25000,
           "originalCount": 20,
           "remaining": 7,
-          "richnessRatio": 1.4
+          "richnessRatio": 1.41
         },
         {
           "prize": 10000,
           "originalCount": 67,
           "remaining": 33,
-          "richnessRatio": 1.97
+          "richnessRatio": 1.99
         },
         {
           "prize": 5000,
           "originalCount": 472,
           "remaining": 116,
-          "richnessRatio": 0.98
+          "richnessRatio": 0.99
         },
         {
           "prize": 1000,
           "originalCount": 1688,
-          "remaining": 456,
+          "remaining": 454,
           "richnessRatio": 1.08
         },
         {
           "prize": 500,
           "originalCount": 40169,
-          "remaining": 10009,
+          "remaining": 9933,
           "richnessRatio": 1
         },
         {
           "prize": 300,
           "originalCount": 50226,
-          "remaining": 12551,
+          "remaining": 12469,
           "richnessRatio": 1
         },
         {
           "prize": 250,
           "originalCount": 200822,
-          "remaining": 49991,
+          "remaining": 49618,
           "richnessRatio": 1
         },
         {
           "prize": 200,
           "originalCount": 200842,
-          "remaining": 50073,
+          "remaining": 49705,
           "richnessRatio": 1
         },
         {
           "prize": 150,
           "originalCount": 401588,
-          "remaining": 100249,
+          "remaining": 99549,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 401591,
-          "remaining": 100303,
+          "remaining": 99593,
           "richnessRatio": 1
         },
         {
           "prize": 75,
           "originalCount": 401585,
-          "remaining": 100642,
+          "remaining": 99886,
           "richnessRatio": 1
         },
         {
           "prize": 50,
           "originalCount": 803173,
-          "remaining": 201481,
+          "remaining": 200002,
           "richnessRatio": 1
         }
       ]
@@ -1413,9 +1413,9 @@
       "totalPrizeValueAtLaunch": 24459575,
       "ticketsRemaining": 2334613,
       "ticketsRemainingFraction": 0.32499998259882995,
-      "prizesRemainingValue": 7603615,
+      "prizesRemainingValue": 7601905,
       "buyAllCost": 11673065,
-      "buyAllProfit": -4069450,
+      "buyAllProfit": -4071160,
       "richnessRatio": 0.96,
       "tiers": [
         {
@@ -1445,37 +1445,37 @@
         {
           "prize": 100,
           "originalCount": 21342,
-          "remaining": 6531,
+          "remaining": 6527,
           "richnessRatio": 0.94
         },
         {
           "prize": 50,
           "originalCount": 95779,
-          "remaining": 29514,
+          "remaining": 29509,
           "richnessRatio": 0.95
         },
         {
           "prize": 25,
           "originalCount": 143918,
-          "remaining": 44577,
+          "remaining": 44570,
           "richnessRatio": 0.95
         },
         {
           "prize": 20,
           "originalCount": 95779,
-          "remaining": 29646,
+          "remaining": 29640,
           "richnessRatio": 0.95
         },
         {
           "prize": 10,
           "originalCount": 550196,
-          "remaining": 176092,
+          "remaining": 176048,
           "richnessRatio": 0.98
         },
         {
           "prize": 5,
           "originalCount": 742487,
-          "remaining": 249410,
+          "remaining": 249345,
           "richnessRatio": 1.03
         }
       ]
@@ -1486,11 +1486,11 @@
       "ticketPrice": 30,
       "totalTicketsPrinted": 6107225,
       "totalPrizeValueAtLaunch": 137599060,
-      "ticketsRemaining": 2442890,
-      "ticketsRemainingFraction": 0.4,
-      "prizesRemainingValue": 54948205,
-      "buyAllCost": 73286700,
-      "buyAllProfit": -18338495,
+      "ticketsRemaining": 2436783,
+      "ticketsRemainingFraction": 0.39900003684160973,
+      "prizesRemainingValue": 54849025,
+      "buyAllCost": 73103490,
+      "buyAllProfit": -18254465,
       "richnessRatio": 1,
       "tiers": [
         {
@@ -1503,7 +1503,7 @@
           "prize": 25000,
           "originalCount": 15,
           "remaining": 5,
-          "richnessRatio": 0.83
+          "richnessRatio": 0.84
         },
         {
           "prize": 3000,
@@ -1520,38 +1520,38 @@
         {
           "prize": 500,
           "originalCount": 9890,
-          "remaining": 4043,
+          "remaining": 4034,
           "richnessRatio": 1.02
         },
         {
           "prize": 200,
           "originalCount": 122225,
-          "remaining": 48718,
+          "remaining": 48627,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 488578,
-          "remaining": 194383,
-          "richnessRatio": 0.99
+          "remaining": 193981,
+          "richnessRatio": 1
         },
         {
           "prize": 75,
           "originalCount": 183236,
-          "remaining": 73135,
+          "remaining": 72993,
           "richnessRatio": 1
         },
         {
           "prize": 50,
           "originalCount": 305285,
-          "remaining": 122069,
+          "remaining": 121842,
           "richnessRatio": 1
         },
         {
           "prize": 30,
           "originalCount": 610777,
-          "remaining": 245441,
-          "richnessRatio": 1
+          "remaining": 244965,
+          "richnessRatio": 1.01
         }
       ]
     },
@@ -1561,11 +1561,11 @@
       "ticketPrice": 3,
       "totalTicketsPrinted": 24853750,
       "totalPrizeValueAtLaunch": 49338197,
-      "ticketsRemaining": 15782131,
-      "ticketsRemainingFraction": 0.6349999899411558,
-      "prizesRemainingValue": 30841913,
-      "buyAllCost": 47346393,
-      "buyAllProfit": -16504480,
+      "ticketsRemaining": 15732424,
+      "ticketsRemainingFraction": 0.6330000100588442,
+      "prizesRemainingValue": 30748946,
+      "buyAllCost": 47197272,
+      "buyAllProfit": -16448326,
       "richnessRatio": 0.98,
       "tiers": [
         {
@@ -1583,49 +1583,49 @@
         {
           "prize": 500,
           "originalCount": 2110,
-          "remaining": 1299,
+          "remaining": 1294,
           "richnessRatio": 0.97
         },
         {
           "prize": 100,
           "originalCount": 40298,
-          "remaining": 24920,
+          "remaining": 24853,
           "richnessRatio": 0.97
         },
         {
           "prize": 50,
           "originalCount": 99461,
-          "remaining": 61419,
+          "remaining": 61210,
           "richnessRatio": 0.97
         },
         {
           "prize": 20,
           "originalCount": 298297,
-          "remaining": 184671,
+          "remaining": 184077,
           "richnessRatio": 0.97
         },
         {
           "prize": 15,
           "originalCount": 347883,
-          "remaining": 215841,
+          "remaining": 215178,
           "richnessRatio": 0.98
         },
         {
           "prize": 10,
           "originalCount": 1192980,
-          "remaining": 743430,
+          "remaining": 741100,
           "richnessRatio": 0.98
         },
         {
           "prize": 5,
           "originalCount": 1391852,
-          "remaining": 875602,
+          "remaining": 872930,
           "richnessRatio": 0.99
         },
         {
           "prize": 3,
           "originalCount": 2734034,
-          "remaining": 1768706,
+          "remaining": 1763762,
           "richnessRatio": 1.02
         }
       ]
@@ -1638,9 +1638,9 @@
       "totalPrizeValueAtLaunch": 452163650,
       "ticketsRemaining": 2675827,
       "ticketsRemainingFraction": 0.47399996988594745,
-      "prizesRemainingValue": 215196600,
+      "prizesRemainingValue": 215007200,
       "buyAllCost": 267582700,
-      "buyAllProfit": -52386100,
+      "buyAllProfit": -52575500,
       "richnessRatio": 1,
       "tiers": [
         {
@@ -1658,37 +1658,37 @@
         {
           "prize": 2500,
           "originalCount": 8277,
-          "remaining": 4009,
+          "remaining": 3999,
           "richnessRatio": 1.02
         },
         {
           "prize": 1000,
           "originalCount": 24037,
-          "remaining": 11614,
+          "remaining": 11601,
           "richnessRatio": 1.02
         },
         {
           "prize": 500,
           "originalCount": 188129,
-          "remaining": 88870,
+          "remaining": 88799,
           "richnessRatio": 1
         },
         {
           "prize": 400,
           "originalCount": 187928,
-          "remaining": 88734,
+          "remaining": 88659,
           "richnessRatio": 1
         },
         {
           "prize": 250,
           "originalCount": 188129,
-          "remaining": 89210,
+          "remaining": 89140,
           "richnessRatio": 1
         },
         {
           "prize": 200,
           "originalCount": 847331,
-          "remaining": 402395,
+          "remaining": 402053,
           "richnessRatio": 1
         }
       ]
@@ -1699,11 +1699,11 @@
       "ticketPrice": 5,
       "totalTicketsPrinted": 17339625,
       "totalPrizeValueAtLaunch": 59055775,
-      "ticketsRemaining": 6051529,
-      "ticketsRemainingFraction": 0.34899999279107824,
-      "prizesRemainingValue": 20214310,
-      "buyAllCost": 30257645,
-      "buyAllProfit": -10043335,
+      "ticketsRemaining": 6034190,
+      "ticketsRemainingFraction": 0.34800002883568704,
+      "prizesRemainingValue": 20134665,
+      "buyAllCost": 30170950,
+      "buyAllProfit": -10036285,
       "richnessRatio": 0.98,
       "tiers": [
         {
@@ -1716,78 +1716,78 @@
           "prize": 1000,
           "originalCount": 12,
           "remaining": 7,
-          "richnessRatio": 1.67
+          "richnessRatio": 1.68
         },
         {
           "prize": 500,
           "originalCount": 2036,
-          "remaining": 674,
+          "remaining": 671,
           "richnessRatio": 0.95
         },
         {
           "prize": 400,
           "originalCount": 1720,
-          "remaining": 580,
+          "remaining": 579,
           "richnessRatio": 0.97
         },
         {
           "prize": 300,
           "originalCount": 2034,
-          "remaining": 690,
+          "remaining": 688,
           "richnessRatio": 0.97
         },
         {
           "prize": 200,
           "originalCount": 3896,
-          "remaining": 1296,
+          "remaining": 1290,
           "richnessRatio": 0.95
         },
         {
           "prize": 100,
           "originalCount": 57728,
-          "remaining": 19289,
+          "remaining": 19203,
           "richnessRatio": 0.96
         },
         {
           "prize": 50,
           "originalCount": 184345,
-          "remaining": 60862,
+          "remaining": 60624,
           "richnessRatio": 0.95
         },
         {
           "prize": 30,
           "originalCount": 57767,
-          "remaining": 19186,
+          "remaining": 19107,
           "richnessRatio": 0.95
         },
         {
           "prize": 25,
           "originalCount": 346762,
-          "remaining": 117302,
+          "remaining": 116826,
           "richnessRatio": 0.97
         },
         {
           "prize": 20,
           "originalCount": 288930,
-          "remaining": 98041,
+          "remaining": 97618,
           "richnessRatio": 0.97
         },
         {
           "prize": 15,
           "originalCount": 404589,
-          "remaining": 138966,
+          "remaining": 138438,
           "richnessRatio": 0.98
         },
         {
           "prize": 10,
           "originalCount": 924841,
-          "remaining": 325016,
+          "remaining": 323799,
           "richnessRatio": 1.01
         },
         {
           "prize": 5,
           "originalCount": 1792084,
-          "remaining": 639302,
+          "remaining": 636777,
           "richnessRatio": 1.02
         }
       ]
@@ -1798,77 +1798,77 @@
       "ticketPrice": 10,
       "totalTicketsPrinted": 22393250,
       "totalPrizeValueAtLaunch": 156763440,
-      "ticketsRemaining": 6606009,
-      "ticketsRemainingFraction": 0.2950000111640785,
-      "prizesRemainingValue": 45675990,
-      "buyAllCost": 66060090,
-      "buyAllProfit": -20384100,
+      "ticketsRemaining": 6561222,
+      "ticketsRemainingFraction": 0.29299998883592154,
+      "prizesRemainingValue": 45429200,
+      "buyAllCost": 65612220,
+      "buyAllProfit": -20183020,
       "richnessRatio": 0.99,
       "tiers": [
         {
           "prize": 250000,
           "originalCount": 10,
           "remaining": 4,
-          "richnessRatio": 1.36
+          "richnessRatio": 1.37
         },
         {
           "prize": 10000,
           "originalCount": 30,
           "remaining": 10,
-          "richnessRatio": 1.13
+          "richnessRatio": 1.14
         },
         {
           "prize": 1000,
           "originalCount": 2032,
-          "remaining": 626,
-          "richnessRatio": 1.04
+          "remaining": 623,
+          "richnessRatio": 1.05
         },
         {
           "prize": 500,
           "originalCount": 3719,
-          "remaining": 1061,
+          "remaining": 1055,
           "richnessRatio": 0.97
         },
         {
           "prize": 200,
           "originalCount": 22149,
-          "remaining": 6213,
+          "remaining": 6170,
           "richnessRatio": 0.95
         },
         {
           "prize": 100,
           "originalCount": 135237,
-          "remaining": 38439,
-          "richnessRatio": 0.96
+          "remaining": 38241,
+          "richnessRatio": 0.97
         },
         {
           "prize": 80,
           "originalCount": 83953,
-          "remaining": 23783,
+          "remaining": 23632,
           "richnessRatio": 0.96
         },
         {
           "prize": 50,
           "originalCount": 447865,
-          "remaining": 127562,
+          "remaining": 126809,
           "richnessRatio": 0.97
         },
         {
           "prize": 30,
           "originalCount": 1567555,
-          "remaining": 448292,
+          "remaining": 445812,
           "richnessRatio": 0.97
         },
         {
           "prize": 20,
           "originalCount": 1567547,
-          "remaining": 452338,
+          "remaining": 449863,
           "richnessRatio": 0.98
         },
         {
           "prize": 10,
           "originalCount": 2463136,
-          "remaining": 755673,
+          "remaining": 751797,
           "richnessRatio": 1.04
         }
       ]
@@ -1879,11 +1879,11 @@
       "ticketPrice": 10,
       "totalTicketsPrinted": 34459550,
       "totalPrizeValueAtLaunch": 241398915,
-      "ticketsRemaining": 7236505,
-      "ticketsRemainingFraction": 0.20999998549023421,
-      "prizesRemainingValue": 49340135,
-      "buyAllCost": 72365050,
-      "buyAllProfit": -23024915,
+      "ticketsRemaining": 7202046,
+      "ticketsRemainingFraction": 0.20900000145097658,
+      "prizesRemainingValue": 49084645,
+      "buyAllCost": 72020460,
+      "buyAllProfit": -22935815,
       "richnessRatio": 0.97,
       "tiers": [
         {
@@ -1896,60 +1896,60 @@
           "prize": 5000,
           "originalCount": 137,
           "remaining": 30,
-          "richnessRatio": 1.04
+          "richnessRatio": 1.05
         },
         {
           "prize": 1000,
           "originalCount": 1735,
-          "remaining": 380,
+          "remaining": 377,
           "richnessRatio": 1.04
         },
         {
           "prize": 500,
           "originalCount": 6337,
-          "remaining": 1239,
+          "remaining": 1233,
           "richnessRatio": 0.93
         },
         {
           "prize": 200,
           "originalCount": 76080,
-          "remaining": 15316,
+          "remaining": 15239,
           "richnessRatio": 0.96
         },
         {
           "prize": 100,
           "originalCount": 354588,
-          "remaining": 71226,
+          "remaining": 70861,
           "richnessRatio": 0.96
         },
         {
           "prize": 50,
           "originalCount": 689191,
-          "remaining": 139567,
+          "remaining": 138831,
           "richnessRatio": 0.96
         },
         {
           "prize": 30,
           "originalCount": 2067573,
-          "remaining": 415545,
+          "remaining": 413309,
           "richnessRatio": 0.96
         },
         {
           "prize": 20,
           "originalCount": 1378382,
-          "remaining": 281731,
+          "remaining": 280214,
           "richnessRatio": 0.97
         },
         {
           "prize": 15,
           "originalCount": 1378579,
-          "remaining": 296275,
+          "remaining": 294787,
           "richnessRatio": 1.02
         },
         {
           "prize": 10,
           "originalCount": 3790255,
-          "remaining": 823139,
+          "remaining": 819034,
           "richnessRatio": 1.03
         }
       ]
@@ -1962,9 +1962,9 @@
       "totalPrizeValueAtLaunch": 91351140,
       "ticketsRemaining": 1162584,
       "ticketsRemainingFraction": 0.19100006982293724,
-      "prizesRemainingValue": 17483060,
+      "prizesRemainingValue": 17456540,
       "buyAllCost": 23251680,
-      "buyAllProfit": -5768620,
+      "buyAllProfit": -5795140,
       "richnessRatio": 1,
       "tiers": [
         {
@@ -1994,25 +1994,25 @@
         {
           "prize": 200,
           "originalCount": 71476,
-          "remaining": 13457,
-          "richnessRatio": 0.99
+          "remaining": 13434,
+          "richnessRatio": 0.98
         },
         {
           "prize": 100,
           "originalCount": 365204,
-          "remaining": 68057,
-          "richnessRatio": 0.98
+          "remaining": 67945,
+          "richnessRatio": 0.97
         },
         {
           "prize": 40,
           "originalCount": 486917,
-          "remaining": 91783,
+          "remaining": 91627,
           "richnessRatio": 0.99
         },
         {
           "prize": 20,
           "originalCount": 669618,
-          "remaining": 131382,
+          "remaining": 131158,
           "richnessRatio": 1.03
         }
       ]
@@ -2025,9 +2025,9 @@
       "totalPrizeValueAtLaunch": 12091489,
       "ticketsRemaining": 4212843,
       "ticketsRemainingFraction": 0.4529999596768774,
-      "prizesRemainingValue": 5323196,
+      "prizesRemainingValue": 5318525,
       "buyAllCost": 8425686,
-      "buyAllProfit": -3102490,
+      "buyAllProfit": -3107161,
       "richnessRatio": 0.97,
       "tiers": [
         {
@@ -2045,43 +2045,43 @@
         {
           "prize": 100,
           "originalCount": 5049,
-          "remaining": 2152,
+          "remaining": 2150,
           "richnessRatio": 0.94
         },
         {
           "prize": 50,
           "originalCount": 62006,
-          "remaining": 26117,
+          "remaining": 26094,
           "richnessRatio": 0.93
         },
         {
           "prize": 20,
           "originalCount": 74399,
-          "remaining": 30190,
-          "richnessRatio": 0.9
+          "remaining": 30157,
+          "richnessRatio": 0.89
         },
         {
           "prize": 10,
           "originalCount": 111570,
-          "remaining": 48899,
+          "remaining": 48862,
           "richnessRatio": 0.97
         },
         {
           "prize": 5,
           "originalCount": 148783,
-          "remaining": 62844,
+          "remaining": 62785,
           "richnessRatio": 0.93
         },
         {
           "prize": 4,
           "originalCount": 744115,
-          "remaining": 364564,
+          "remaining": 364269,
           "richnessRatio": 1.08
         },
         {
           "prize": 2,
           "originalCount": 967117,
-          "remaining": 423440,
+          "remaining": 423032,
           "richnessRatio": 0.97
         }
       ]
@@ -2092,77 +2092,77 @@
       "ticketPrice": 10,
       "totalTicketsPrinted": 25087000,
       "totalPrizeValueAtLaunch": 175682200,
-      "ticketsRemaining": 3211136,
-      "ticketsRemainingFraction": 0.128,
-      "prizesRemainingValue": 21882260,
-      "buyAllCost": 32111360,
-      "buyAllProfit": -10229100,
+      "ticketsRemaining": 3186049,
+      "ticketsRemainingFraction": 0.127,
+      "prizesRemainingValue": 21730945,
+      "buyAllCost": 31860490,
+      "buyAllProfit": -10129545,
       "richnessRatio": 0.97,
       "tiers": [
         {
           "prize": 250000,
           "originalCount": 10,
           "remaining": 2,
-          "richnessRatio": 1.56
+          "richnessRatio": 1.57
         },
         {
           "prize": 5000,
           "originalCount": 140,
-          "remaining": 24,
-          "richnessRatio": 1.34
+          "remaining": 23,
+          "richnessRatio": 1.29
         },
         {
           "prize": 1000,
           "originalCount": 1263,
-          "remaining": 184,
+          "remaining": 183,
           "richnessRatio": 1.14
         },
         {
           "prize": 500,
           "originalCount": 4186,
-          "remaining": 469,
-          "richnessRatio": 0.88
+          "remaining": 465,
+          "richnessRatio": 0.87
         },
         {
           "prize": 200,
           "originalCount": 54383,
-          "remaining": 6414,
+          "remaining": 6369,
           "richnessRatio": 0.92
         },
         {
           "prize": 100,
           "originalCount": 252885,
-          "remaining": 29934,
-          "richnessRatio": 0.92
+          "remaining": 29726,
+          "richnessRatio": 0.93
         },
         {
           "prize": 50,
           "originalCount": 501740,
-          "remaining": 60435,
+          "remaining": 59995,
           "richnessRatio": 0.94
         },
         {
           "prize": 30,
           "originalCount": 1505220,
-          "remaining": 178347,
+          "remaining": 177098,
           "richnessRatio": 0.93
         },
         {
           "prize": 20,
           "originalCount": 1003480,
-          "remaining": 122534,
+          "remaining": 121652,
           "richnessRatio": 0.95
         },
         {
           "prize": 15,
           "originalCount": 1003846,
-          "remaining": 133344,
+          "remaining": 132527,
           "richnessRatio": 1.04
         },
         {
           "prize": 10,
           "originalCount": 2759021,
-          "remaining": 374456,
+          "remaining": 372041,
           "richnessRatio": 1.06
         }
       ]
@@ -2173,18 +2173,18 @@
       "ticketPrice": 50,
       "totalTicketsPrinted": 4651020,
       "totalPrizeValueAtLaunch": 181260000,
-      "ticketsRemaining": 1841804,
-      "ticketsRemainingFraction": 0.3960000172005281,
-      "prizesRemainingValue": 72566500,
-      "buyAllCost": 92090200,
-      "buyAllProfit": -19523700,
+      "ticketsRemaining": 1837153,
+      "ticketsRemainingFraction": 0.39500002150066005,
+      "prizesRemainingValue": 72397400,
+      "buyAllCost": 91857650,
+      "buyAllProfit": -19460250,
       "richnessRatio": 1.01,
       "tiers": [
         {
           "prize": 2000000,
           "originalCount": 4,
           "remaining": 2,
-          "richnessRatio": 1.26
+          "richnessRatio": 1.27
         },
         {
           "prize": 10000,
@@ -2195,43 +2195,43 @@
         {
           "prize": 2000,
           "originalCount": 1019,
-          "remaining": 420,
+          "remaining": 419,
           "richnessRatio": 1.04
         },
         {
           "prize": 500,
           "originalCount": 46836,
-          "remaining": 18490,
+          "remaining": 18449,
           "richnessRatio": 1
         },
         {
           "prize": 400,
           "originalCount": 65950,
-          "remaining": 25973,
+          "remaining": 25913,
           "richnessRatio": 0.99
         },
         {
           "prize": 250,
           "originalCount": 77490,
-          "remaining": 30564,
+          "remaining": 30478,
           "richnessRatio": 1
         },
         {
           "prize": 150,
           "originalCount": 290734,
-          "remaining": 115032,
+          "remaining": 114747,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 406919,
-          "remaining": 161240,
+          "remaining": 160834,
           "richnessRatio": 1
         },
         {
           "prize": 50,
           "originalCount": 348790,
-          "remaining": 138650,
+          "remaining": 138295,
           "richnessRatio": 1
         }
       ]
@@ -2242,35 +2242,35 @@
       "ticketPrice": 20,
       "totalTicketsPrinted": 4965650,
       "totalPrizeValueAtLaunch": 74490800,
-      "ticketsRemaining": 3818585,
-      "ticketsRemainingFraction": 0.7690000302075257,
-      "prizesRemainingValue": 57314300,
-      "buyAllCost": 76371700,
-      "buyAllProfit": -19057400,
+      "ticketsRemaining": 3803688,
+      "ticketsRemainingFraction": 0.7660000201383504,
+      "prizesRemainingValue": 57103600,
+      "buyAllCost": 76073760,
+      "buyAllProfit": -18970160,
       "richnessRatio": 1,
       "tiers": [
         {
           "prize": 1000,
           "originalCount": 2974,
-          "remaining": 2350,
+          "remaining": 2341,
           "richnessRatio": 1.03
         },
         {
           "prize": 500,
           "originalCount": 23858,
-          "remaining": 18396,
+          "remaining": 18319,
           "richnessRatio": 1
         },
         {
           "prize": 200,
           "originalCount": 99302,
-          "remaining": 75821,
+          "remaining": 75564,
           "richnessRatio": 0.99
         },
         {
           "prize": 100,
           "originalCount": 397274,
-          "remaining": 306021,
+          "remaining": 304903,
           "richnessRatio": 1
         }
       ]
@@ -2281,11 +2281,11 @@
       "ticketPrice": 50,
       "totalTicketsPrinted": 5002420,
       "totalPrizeValueAtLaunch": 195371150,
-      "ticketsRemaining": 2426174,
-      "ticketsRemainingFraction": 0.48500005997097406,
-      "prizesRemainingValue": 97943250,
-      "buyAllCost": 121308700,
-      "buyAllProfit": -23365450,
+      "ticketsRemaining": 2421171,
+      "ticketsRemainingFraction": 0.4839999440270909,
+      "prizesRemainingValue": 97716500,
+      "buyAllCost": 121058550,
+      "buyAllProfit": -23342050,
       "richnessRatio": 1.03,
       "tiers": [
         {
@@ -2297,8 +2297,8 @@
         {
           "prize": 5000,
           "originalCount": 101,
-          "remaining": 54,
-          "richnessRatio": 1.1
+          "remaining": 53,
+          "richnessRatio": 1.08
         },
         {
           "prize": 1000,
@@ -2309,31 +2309,31 @@
         {
           "prize": 500,
           "originalCount": 62975,
-          "remaining": 30625,
+          "remaining": 30551,
           "richnessRatio": 1
         },
         {
           "prize": 300,
           "originalCount": 71890,
-          "remaining": 34993,
+          "remaining": 34915,
           "richnessRatio": 1
         },
         {
           "prize": 200,
           "originalCount": 250121,
-          "remaining": 120922,
+          "remaining": 120611,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 562893,
-          "remaining": 272535,
+          "remaining": 271858,
           "richnessRatio": 1
         },
         {
           "prize": 50,
           "originalCount": 499843,
-          "remaining": 243259,
+          "remaining": 242630,
           "richnessRatio": 1
         }
       ]
@@ -2344,65 +2344,65 @@
       "ticketPrice": 20,
       "totalTicketsPrinted": 6073475,
       "totalPrizeValueAtLaunch": 91051070,
-      "ticketsRemaining": 6006667,
-      "ticketsRemainingFraction": 0.9890000370463368,
-      "prizesRemainingValue": 90089995,
-      "buyAllCost": 120133340,
-      "buyAllProfit": -30043345,
+      "ticketsRemaining": 5976299,
+      "ticketsRemainingFraction": 0.9839999341398458,
+      "prizesRemainingValue": 89632900,
+      "buyAllCost": 119525980,
+      "buyAllProfit": -29893080,
       "richnessRatio": 1,
       "tiers": [
         {
           "prize": 1000000,
           "originalCount": 4,
           "remaining": 4,
-          "richnessRatio": 1.01
+          "richnessRatio": 1.02
         },
         {
           "prize": 10000,
           "originalCount": 12,
           "remaining": 12,
-          "richnessRatio": 1.01
+          "richnessRatio": 1.02
         },
         {
           "prize": 2000,
           "originalCount": 149,
           "remaining": 149,
-          "richnessRatio": 1.01
+          "richnessRatio": 1.02
         },
         {
           "prize": 500,
           "originalCount": 4061,
-          "remaining": 4016,
+          "remaining": 3996,
           "richnessRatio": 1
         },
         {
           "prize": 200,
           "originalCount": 67719,
-          "remaining": 66998,
+          "remaining": 66650,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 303611,
-          "remaining": 300143,
+          "remaining": 298483,
           "richnessRatio": 1
         },
         {
           "prize": 75,
           "originalCount": 121494,
-          "remaining": 120125,
+          "remaining": 119472,
           "richnessRatio": 1
         },
         {
           "prize": 40,
           "originalCount": 486024,
-          "remaining": 480593,
+          "remaining": 478062,
           "richnessRatio": 1
         },
         {
           "prize": 20,
           "originalCount": 607233,
-          "remaining": 600850,
+          "remaining": 597786,
           "richnessRatio": 1
         }
       ]
@@ -2415,10 +2415,10 @@
       "totalPrizeValueAtLaunch": 31820304,
       "ticketsRemaining": 3720428,
       "ticketsRemainingFraction": 0.152,
-      "prizesRemainingValue": 4232963,
+      "prizesRemainingValue": 4230259,
       "buyAllCost": 7440856,
-      "buyAllProfit": -3207893,
-      "richnessRatio": 0.88,
+      "buyAllProfit": -3210597,
+      "richnessRatio": 0.87,
       "tiers": [
         {
           "prize": 30000,
@@ -2447,50 +2447,50 @@
         {
           "prize": 50,
           "originalCount": 91853,
-          "remaining": 9948,
+          "remaining": 9942,
           "richnessRatio": 0.71
         },
         {
           "prize": 20,
           "originalCount": 195812,
-          "remaining": 24351,
+          "remaining": 24332,
           "richnessRatio": 0.82
         },
         {
           "prize": 15,
           "originalCount": 195812,
-          "remaining": 21739,
+          "remaining": 21723,
           "richnessRatio": 0.73
         },
         {
           "prize": 10,
           "originalCount": 489709,
-          "remaining": 68607,
+          "remaining": 68571,
           "richnessRatio": 0.92
         },
         {
           "prize": 8,
           "originalCount": 97930,
-          "remaining": 13758,
+          "remaining": 13750,
           "richnessRatio": 0.92
         },
         {
           "prize": 5,
           "originalCount": 293336,
-          "remaining": 41050,
+          "remaining": 41012,
           "richnessRatio": 0.92
         },
         {
           "prize": 4,
           "originalCount": 1370684,
-          "remaining": 204685,
+          "remaining": 204531,
           "richnessRatio": 0.98
         },
         {
           "prize": 2,
           "originalCount": 2349744,
-          "remaining": 387667,
-          "richnessRatio": 1.09
+          "remaining": 387390,
+          "richnessRatio": 1.08
         }
       ]
     },
@@ -2500,11 +2500,11 @@
       "ticketPrice": 20,
       "totalTicketsPrinted": 6114525,
       "totalPrizeValueAtLaunch": 91678975,
-      "ticketsRemaining": 3411905,
-      "ticketsRemainingFraction": 0.55800000817725,
-      "prizesRemainingValue": 50761350,
-      "buyAllCost": 68238100,
-      "buyAllProfit": -17476750,
+      "ticketsRemaining": 3399676,
+      "ticketsRemainingFraction": 0.5560000163545001,
+      "prizesRemainingValue": 50610410,
+      "buyAllCost": 67993520,
+      "buyAllProfit": -17383110,
       "richnessRatio": 0.99,
       "tiers": [
         {
@@ -2522,43 +2522,43 @@
         {
           "prize": 1000,
           "originalCount": 275,
-          "remaining": 156,
-          "richnessRatio": 1.02
+          "remaining": 155,
+          "richnessRatio": 1.01
         },
         {
           "prize": 500,
           "originalCount": 3897,
-          "remaining": 2164,
+          "remaining": 2163,
           "richnessRatio": 1
         },
         {
           "prize": 200,
           "originalCount": 55959,
-          "remaining": 31053,
-          "richnessRatio": 0.99
+          "remaining": 30958,
+          "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 293490,
-          "remaining": 162870,
+          "remaining": 162354,
           "richnessRatio": 0.99
         },
         {
           "prize": 75,
           "originalCount": 97871,
-          "remaining": 54492,
+          "remaining": 54302,
           "richnessRatio": 1
         },
         {
           "prize": 50,
           "originalCount": 489077,
-          "remaining": 271805,
+          "remaining": 270958,
           "richnessRatio": 1
         },
         {
           "prize": 20,
           "originalCount": 636025,
-          "remaining": 356430,
+          "remaining": 355318,
           "richnessRatio": 1
         }
       ]
@@ -2569,11 +2569,11 @@
       "ticketPrice": 1,
       "totalTicketsPrinted": 19582500,
       "totalPrizeValueAtLaunch": 11764840,
-      "ticketsRemaining": 3054870,
-      "ticketsRemainingFraction": 0.156,
-      "prizesRemainingValue": 1502102,
-      "buyAllCost": 3054870,
-      "buyAllProfit": -1552768,
+      "ticketsRemaining": 3035288,
+      "ticketsRemainingFraction": 0.1550000255330014,
+      "prizesRemainingValue": 1500509,
+      "buyAllCost": 3035288,
+      "buyAllProfit": -1534779,
       "richnessRatio": 0.82,
       "tiers": [
         {
@@ -2598,13 +2598,13 @@
           "prize": 100,
           "originalCount": 3264,
           "remaining": 277,
-          "richnessRatio": 0.54
+          "richnessRatio": 0.55
         },
         {
           "prize": 50,
           "originalCount": 6519,
-          "remaining": 563,
-          "richnessRatio": 0.55
+          "remaining": 561,
+          "richnessRatio": 0.56
         },
         {
           "prize": 30,
@@ -2615,38 +2615,38 @@
         {
           "prize": 15,
           "originalCount": 65252,
-          "remaining": 6174,
+          "remaining": 6166,
           "richnessRatio": 0.61
         },
         {
           "prize": 10,
           "originalCount": 195848,
-          "remaining": 21131,
-          "richnessRatio": 0.69
+          "remaining": 21106,
+          "richnessRatio": 0.7
         },
         {
           "prize": 5,
           "originalCount": 195808,
-          "remaining": 24081,
+          "remaining": 24049,
           "richnessRatio": 0.79
         },
         {
           "prize": 3,
           "originalCount": 522240,
-          "remaining": 67347,
+          "remaining": 67269,
           "richnessRatio": 0.83
         },
         {
           "prize": 2,
           "originalCount": 1175030,
-          "remaining": 175995,
-          "richnessRatio": 0.96
+          "remaining": 175810,
+          "richnessRatio": 0.97
         },
         {
           "prize": 1,
           "originalCount": 2219310,
-          "remaining": 387416,
-          "richnessRatio": 1.12
+          "remaining": 387057,
+          "richnessRatio": 1.13
         }
       ]
     },
@@ -2656,11 +2656,11 @@
       "ticketPrice": 3,
       "totalTicketsPrinted": 17205625,
       "totalPrizeValueAtLaunch": 33237038,
-      "ticketsRemaining": 10856749,
-      "ticketsRemainingFraction": 0.6309999782048022,
-      "prizesRemainingValue": 20838343,
-      "buyAllCost": 32570247,
-      "buyAllProfit": -11731904,
+      "ticketsRemaining": 10839544,
+      "ticketsRemainingFraction": 0.6300000145301319,
+      "prizesRemainingValue": 20819210,
+      "buyAllCost": 32518632,
+      "buyAllProfit": -11699422,
       "richnessRatio": 0.99,
       "tiers": [
         {
@@ -2684,55 +2684,55 @@
         {
           "prize": 150,
           "originalCount": 2713,
-          "remaining": 1694,
+          "remaining": 1693,
           "richnessRatio": 0.99
         },
         {
           "prize": 90,
           "originalCount": 10772,
-          "remaining": 6725,
+          "remaining": 6717,
           "richnessRatio": 0.99
         },
         {
           "prize": 45,
           "originalCount": 17217,
-          "remaining": 10639,
+          "remaining": 10623,
           "richnessRatio": 0.98
         },
         {
           "prize": 30,
           "originalCount": 103266,
-          "remaining": 64427,
+          "remaining": 64371,
           "richnessRatio": 0.99
         },
         {
           "prize": 20,
           "originalCount": 240691,
-          "remaining": 149450,
+          "remaining": 149322,
           "richnessRatio": 0.98
         },
         {
           "prize": 15,
           "originalCount": 516273,
-          "remaining": 322203,
+          "remaining": 321899,
           "richnessRatio": 0.99
         },
         {
           "prize": 10,
           "originalCount": 619463,
-          "remaining": 387112,
+          "remaining": 386741,
           "richnessRatio": 0.99
         },
         {
           "prize": 5,
           "originalCount": 688271,
-          "remaining": 435318,
+          "remaining": 434921,
           "richnessRatio": 1
         },
         {
           "prize": 3,
           "originalCount": 1720521,
-          "remaining": 1093991,
+          "remaining": 1092975,
           "richnessRatio": 1.01
         }
       ]
@@ -2745,9 +2745,9 @@
       "totalPrizeValueAtLaunch": 48921890,
       "ticketsRemaining": 5916352,
       "ticketsRemainingFraction": 0.3989999966279897,
-      "prizesRemainingValue": 19309715,
+      "prizesRemainingValue": 19296780,
       "buyAllCost": 29581760,
-      "buyAllProfit": -10272045,
+      "buyAllProfit": -10284980,
       "richnessRatio": 0.99,
       "tiers": [
         {
@@ -2771,37 +2771,37 @@
         {
           "prize": 100,
           "originalCount": 31634,
-          "remaining": 12263,
+          "remaining": 12256,
           "richnessRatio": 0.97
         },
         {
           "prize": 50,
           "originalCount": 197534,
-          "remaining": 76370,
+          "remaining": 76318,
           "richnessRatio": 0.97
         },
         {
           "prize": 25,
           "originalCount": 494485,
-          "remaining": 192923,
+          "remaining": 192796,
           "richnessRatio": 0.98
         },
         {
           "prize": 15,
           "originalCount": 296645,
-          "remaining": 115392,
+          "remaining": 115300,
           "richnessRatio": 0.97
         },
         {
           "prize": 10,
           "originalCount": 988715,
-          "remaining": 390501,
+          "remaining": 390227,
           "richnessRatio": 0.99
         },
         {
           "prize": 5,
           "originalCount": 1581468,
-          "remaining": 644990,
+          "remaining": 644522,
           "richnessRatio": 1.02
         }
       ]
@@ -2812,18 +2812,18 @@
       "ticketPrice": 10,
       "totalTicketsPrinted": 11808600,
       "totalPrizeValueAtLaunch": 80027310,
-      "ticketsRemaining": 4569928,
-      "ticketsRemainingFraction": 0.3869999830631912,
-      "prizesRemainingValue": 30951740,
-      "buyAllCost": 45699280,
-      "buyAllProfit": -14747540,
+      "ticketsRemaining": 4558120,
+      "ticketsRemainingFraction": 0.38600003387361753,
+      "prizesRemainingValue": 30889130,
+      "buyAllCost": 45581200,
+      "buyAllProfit": -14692070,
       "richnessRatio": 1,
       "tiers": [
         {
           "prize": 500000,
           "originalCount": 4,
           "remaining": 2,
-          "richnessRatio": 1.29
+          "richnessRatio": 1.3
         },
         {
           "prize": 10000,
@@ -2846,37 +2846,37 @@
         {
           "prize": 200,
           "originalCount": 15015,
-          "remaining": 5670,
+          "remaining": 5661,
           "richnessRatio": 0.98
         },
         {
           "prize": 100,
           "originalCount": 116898,
-          "remaining": 44404,
+          "remaining": 44330,
           "richnessRatio": 0.98
         },
         {
           "prize": 50,
           "originalCount": 472544,
-          "remaining": 180217,
+          "remaining": 179799,
           "richnessRatio": 0.99
         },
         {
           "prize": 30,
           "originalCount": 354144,
-          "remaining": 135621,
+          "remaining": 135335,
           "richnessRatio": 0.99
         },
         {
           "prize": 20,
           "originalCount": 826316,
-          "remaining": 317893,
+          "remaining": 317198,
           "richnessRatio": 0.99
         },
         {
           "prize": 10,
           "originalCount": 1180617,
-          "remaining": 463100,
+          "remaining": 462097,
           "richnessRatio": 1.01
         }
       ]
@@ -2889,9 +2889,9 @@
       "totalPrizeValueAtLaunch": 103002290,
       "ticketsRemaining": 2802660,
       "ticketsRemainingFraction": 0.39300002103359066,
-      "prizesRemainingValue": 40804040,
+      "prizesRemainingValue": 40748210,
       "buyAllCost": 56053200,
-      "buyAllProfit": -15249160,
+      "buyAllProfit": -15304990,
       "richnessRatio": 1.01,
       "tiers": [
         {
@@ -2915,37 +2915,37 @@
         {
           "prize": 500,
           "originalCount": 6537,
-          "remaining": 2566,
+          "remaining": 2562,
           "richnessRatio": 1
         },
         {
           "prize": 200,
           "originalCount": 46728,
-          "remaining": 18276,
-          "richnessRatio": 1
+          "remaining": 18252,
+          "richnessRatio": 0.99
         },
         {
           "prize": 100,
           "originalCount": 427807,
-          "remaining": 167111,
+          "remaining": 166888,
           "richnessRatio": 0.99
         },
         {
           "prize": 50,
           "originalCount": 285297,
-          "remaining": 111886,
+          "remaining": 111709,
           "richnessRatio": 1
         },
         {
           "prize": 40,
           "originalCount": 356634,
-          "remaining": 139688,
+          "remaining": 139458,
           "richnessRatio": 1
         },
         {
           "prize": 20,
           "originalCount": 713264,
-          "remaining": 282746,
+          "remaining": 282312,
           "richnessRatio": 1.01
         }
       ]
@@ -2956,47 +2956,47 @@
       "ticketPrice": 2,
       "totalTicketsPrinted": 9173750,
       "totalPrizeValueAtLaunch": 11917494,
-      "ticketsRemaining": 4641918,
-      "ticketsRemainingFraction": 0.5060000545033383,
-      "prizesRemainingValue": 5904641,
-      "buyAllCost": 9283836,
-      "buyAllProfit": -3379195,
+      "ticketsRemaining": 4632744,
+      "ticketsRemainingFraction": 0.5050000272516691,
+      "prizesRemainingValue": 5888091,
+      "buyAllCost": 9265488,
+      "buyAllProfit": -3377397,
       "richnessRatio": 0.98,
       "tiers": [
         {
           "prize": 200,
           "originalCount": 7609,
-          "remaining": 3691,
+          "remaining": 3682,
           "richnessRatio": 0.96
         },
         {
           "prize": 50,
           "originalCount": 22971,
-          "remaining": 11158,
+          "remaining": 11117,
           "richnessRatio": 0.96
         },
         {
           "prize": 20,
           "originalCount": 110077,
-          "remaining": 53470,
+          "remaining": 53315,
           "richnessRatio": 0.96
         },
         {
           "prize": 10,
           "originalCount": 220188,
-          "remaining": 108490,
+          "remaining": 108164,
           "richnessRatio": 0.97
         },
         {
           "prize": 5,
           "originalCount": 587116,
-          "remaining": 294319,
+          "remaining": 293567,
           "richnessRatio": 0.99
         },
         {
           "prize": 2,
           "originalCount": 954072,
-          "remaining": 491323,
+          "remaining": 490033,
           "richnessRatio": 1.02
         }
       ]
@@ -3007,65 +3007,65 @@
       "ticketPrice": 5,
       "totalTicketsPrinted": 5138550,
       "totalPrizeValueAtLaunch": 17479985,
-      "ticketsRemaining": 5046056,
-      "ticketsRemainingFraction": 0.9819999805392572,
-      "prizesRemainingValue": 17157055,
-      "buyAllCost": 25230280,
-      "buyAllProfit": -8073225,
+      "ticketsRemaining": 4989532,
+      "ticketsRemainingFraction": 0.9709999902696286,
+      "prizesRemainingValue": 16977470,
+      "buyAllCost": 24947660,
+      "buyAllProfit": -7970190,
       "richnessRatio": 1,
       "tiers": [
         {
           "prize": 100000,
           "originalCount": 5,
           "remaining": 5,
-          "richnessRatio": 1.02
+          "richnessRatio": 1.03
         },
         {
           "prize": 1000,
           "originalCount": 50,
           "remaining": 49,
-          "richnessRatio": 1
+          "richnessRatio": 1.01
         },
         {
           "prize": 500,
           "originalCount": 538,
-          "remaining": 529,
-          "richnessRatio": 1
+          "remaining": 518,
+          "richnessRatio": 0.99
         },
         {
           "prize": 250,
           "originalCount": 2172,
-          "remaining": 2123,
+          "remaining": 2106,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 12164,
-          "remaining": 11928,
+          "remaining": 11789,
           "richnessRatio": 1
         },
         {
           "prize": 50,
           "originalCount": 34220,
-          "remaining": 33525,
+          "remaining": 33163,
           "richnessRatio": 1
         },
         {
           "prize": 25,
           "originalCount": 91490,
-          "remaining": 89712,
+          "remaining": 88642,
           "richnessRatio": 1
         },
         {
           "prize": 15,
           "originalCount": 559437,
-          "remaining": 548880,
+          "remaining": 543119,
           "richnessRatio": 1
         },
         {
           "prize": 5,
           "originalCount": 502356,
-          "remaining": 493551,
+          "remaining": 488617,
           "richnessRatio": 1
         }
       ]
@@ -3076,11 +3076,11 @@
       "ticketPrice": 10,
       "totalTicketsPrinted": 30139300,
       "totalPrizeValueAtLaunch": 211174790,
-      "ticketsRemaining": 29204982,
-      "ticketsRemainingFraction": 0.9690000099537813,
-      "prizesRemainingValue": 204756770,
-      "buyAllCost": 292049820,
-      "buyAllProfit": -87293050,
+      "ticketsRemaining": 29174842,
+      "ticketsRemainingFraction": 0.9679999867282917,
+      "prizesRemainingValue": 204382890,
+      "buyAllCost": 291748420,
+      "buyAllProfit": -87365530,
       "richnessRatio": 1,
       "tiers": [
         {
@@ -3098,55 +3098,55 @@
         {
           "prize": 1000,
           "originalCount": 1526,
-          "remaining": 1484,
+          "remaining": 1483,
           "richnessRatio": 1
         },
         {
           "prize": 500,
           "originalCount": 5023,
-          "remaining": 4860,
+          "remaining": 4852,
           "richnessRatio": 1
         },
         {
           "prize": 200,
           "originalCount": 65261,
-          "remaining": 63309,
+          "remaining": 63187,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 298968,
-          "remaining": 289601,
+          "remaining": 289064,
           "richnessRatio": 1
         },
         {
           "prize": 50,
           "originalCount": 602786,
-          "remaining": 583809,
+          "remaining": 582721,
           "richnessRatio": 1
         },
         {
           "prize": 30,
           "originalCount": 1808358,
-          "remaining": 1751717,
+          "remaining": 1748412,
           "richnessRatio": 1
         },
         {
           "prize": 20,
           "originalCount": 1205572,
-          "remaining": 1168425,
+          "remaining": 1166236,
           "richnessRatio": 1
         },
         {
           "prize": 15,
           "originalCount": 1205176,
-          "remaining": 1168262,
+          "remaining": 1166082,
           "richnessRatio": 1
         },
         {
           "prize": 10,
           "originalCount": 3315917,
-          "remaining": 3216648,
+          "remaining": 3210573,
           "richnessRatio": 1
         }
       ]
@@ -3159,9 +3159,9 @@
       "totalPrizeValueAtLaunch": 91092830,
       "ticketsRemaining": 2534762,
       "ticketsRemainingFraction": 0.4179999257918627,
-      "prizesRemainingValue": 38359710,
+      "prizesRemainingValue": 38278060,
       "buyAllCost": 50695240,
-      "buyAllProfit": -12335530,
+      "buyAllProfit": -12417180,
       "richnessRatio": 1.01,
       "tiers": [
         {
@@ -3185,31 +3185,31 @@
         {
           "prize": 500,
           "originalCount": 3084,
-          "remaining": 1314,
+          "remaining": 1313,
           "richnessRatio": 1.02
         },
         {
           "prize": 200,
           "originalCount": 71653,
-          "remaining": 30111,
-          "richnessRatio": 1.01
+          "remaining": 30045,
+          "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 291191,
-          "remaining": 120627,
+          "remaining": 120341,
           "richnessRatio": 0.99
         },
         {
           "prize": 50,
           "originalCount": 582417,
-          "remaining": 243009,
+          "remaining": 242470,
           "richnessRatio": 1
         },
         {
           "prize": 20,
           "originalCount": 629764,
-          "remaining": 265318,
+          "remaining": 264698,
           "richnessRatio": 1.01
         }
       ]
@@ -3220,11 +3220,11 @@
       "ticketPrice": 10,
       "totalTicketsPrinted": 7911300,
       "totalPrizeValueAtLaunch": 55429660,
-      "ticketsRemaining": 3749956,
-      "ticketsRemainingFraction": 0.47399997471970473,
-      "prizesRemainingValue": 26446570,
-      "buyAllCost": 37499560,
-      "buyAllProfit": -11052990,
+      "ticketsRemaining": 3734134,
+      "ticketsRemainingFraction": 0.4720000505605905,
+      "prizesRemainingValue": 26387400,
+      "buyAllCost": 37341340,
+      "buyAllProfit": -10953940,
       "richnessRatio": 1.01,
       "tiers": [
         {
@@ -3237,61 +3237,61 @@
           "prize": 10000,
           "originalCount": 20,
           "remaining": 11,
-          "richnessRatio": 1.16
+          "richnessRatio": 1.17
         },
         {
           "prize": 5000,
           "originalCount": 26,
           "remaining": 13,
-          "richnessRatio": 1.05
+          "richnessRatio": 1.06
         },
         {
           "prize": 1000,
           "originalCount": 394,
           "remaining": 193,
-          "richnessRatio": 1.03
+          "richnessRatio": 1.04
         },
         {
           "prize": 500,
           "originalCount": 2646,
-          "remaining": 1258,
+          "remaining": 1255,
           "richnessRatio": 1
         },
         {
           "prize": 200,
           "originalCount": 17458,
-          "remaining": 8223,
+          "remaining": 8198,
           "richnessRatio": 0.99
         },
         {
           "prize": 100,
           "originalCount": 72523,
-          "remaining": 33960,
+          "remaining": 33878,
           "richnessRatio": 0.99
         },
         {
           "prize": 50,
           "originalCount": 276930,
-          "remaining": 129651,
+          "remaining": 129359,
           "richnessRatio": 0.99
         },
         {
           "prize": 30,
           "originalCount": 276843,
-          "remaining": 129940,
+          "remaining": 129646,
           "richnessRatio": 0.99
         },
         {
           "prize": 20,
           "originalCount": 474627,
-          "remaining": 225373,
+          "remaining": 224870,
           "richnessRatio": 1
         },
         {
           "prize": 10,
           "originalCount": 949443,
-          "remaining": 452076,
-          "richnessRatio": 1
+          "remaining": 450977,
+          "richnessRatio": 1.01
         }
       ]
     },
@@ -3301,24 +3301,24 @@
       "ticketPrice": 20,
       "totalTicketsPrinted": 6119075,
       "totalPrizeValueAtLaunch": 91747770,
-      "ticketsRemaining": 3420563,
-      "ticketsRemainingFraction": 0.5590000122567544,
-      "prizesRemainingValue": 50995910,
-      "buyAllCost": 68411260,
-      "buyAllProfit": -17415350,
+      "ticketsRemaining": 3414444,
+      "ticketsRemainingFraction": 0.5580000245135089,
+      "prizesRemainingValue": 50927280,
+      "buyAllCost": 68288880,
+      "buyAllProfit": -17361600,
       "richnessRatio": 0.99,
       "tiers": [
         {
           "prize": 1000000,
           "originalCount": 4,
           "remaining": 2,
-          "richnessRatio": 0.89
+          "richnessRatio": 0.9
         },
         {
           "prize": 10000,
           "originalCount": 25,
           "remaining": 15,
-          "richnessRatio": 1.07
+          "richnessRatio": 1.08
         },
         {
           "prize": 1000,
@@ -3329,37 +3329,37 @@
         {
           "prize": 500,
           "originalCount": 9163,
-          "remaining": 5099,
-          "richnessRatio": 1
+          "remaining": 5086,
+          "richnessRatio": 0.99
         },
         {
           "prize": 200,
           "originalCount": 84141,
-          "remaining": 46946,
+          "remaining": 46878,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 193821,
-          "remaining": 108067,
+          "remaining": 107933,
           "richnessRatio": 1
         },
         {
           "prize": 50,
           "originalCount": 489737,
-          "remaining": 273101,
+          "remaining": 272742,
           "richnessRatio": 1
         },
         {
           "prize": 40,
           "originalCount": 183489,
-          "remaining": 102376,
+          "remaining": 102223,
           "richnessRatio": 1
         },
         {
           "prize": 20,
           "originalCount": 733928,
-          "remaining": 411871,
+          "remaining": 411318,
           "richnessRatio": 1
         }
       ]
@@ -3370,72 +3370,72 @@
       "ticketPrice": 5,
       "totalTicketsPrinted": 5124375,
       "totalPrizeValueAtLaunch": 17419235,
-      "ticketsRemaining": 471442,
-      "ticketsRemainingFraction": 0.09199990242712526,
-      "prizesRemainingValue": 1559680,
-      "buyAllCost": 2357210,
-      "buyAllProfit": -797530,
-      "richnessRatio": 0.97,
+      "ticketsRemaining": 466318,
+      "ticketsRemainingFraction": 0.09099997560678132,
+      "prizesRemainingValue": 1549090,
+      "buyAllCost": 2331590,
+      "buyAllProfit": -782500,
+      "richnessRatio": 0.98,
       "tiers": [
         {
           "prize": 100000,
           "originalCount": 4,
           "remaining": 2,
-          "richnessRatio": 5.43
+          "richnessRatio": 5.49
         },
         {
           "prize": 5000,
           "originalCount": 10,
           "remaining": 1,
-          "richnessRatio": 1.09
+          "richnessRatio": 1.1
         },
         {
           "prize": 1000,
           "originalCount": 252,
           "remaining": 29,
-          "richnessRatio": 1.25
+          "richnessRatio": 1.26
         },
         {
           "prize": 500,
           "originalCount": 1495,
-          "remaining": 87,
+          "remaining": 86,
           "richnessRatio": 0.63
         },
         {
           "prize": 100,
           "originalCount": 17061,
-          "remaining": 1145,
+          "remaining": 1133,
           "richnessRatio": 0.73
         },
         {
           "prize": 50,
           "originalCount": 68325,
-          "remaining": 4623,
+          "remaining": 4586,
           "richnessRatio": 0.74
         },
         {
           "prize": 30,
           "originalCount": 51311,
-          "remaining": 3695,
-          "richnessRatio": 0.78
+          "remaining": 3668,
+          "richnessRatio": 0.79
         },
         {
           "prize": 20,
           "originalCount": 136526,
-          "remaining": 10345,
-          "richnessRatio": 0.82
+          "remaining": 10257,
+          "richnessRatio": 0.83
         },
         {
           "prize": 10,
           "originalCount": 393033,
-          "remaining": 34021,
+          "remaining": 33752,
           "richnessRatio": 0.94
         },
         {
           "prize": 5,
           "originalCount": 529441,
-          "remaining": 55714,
-          "richnessRatio": 1.14
+          "remaining": 55358,
+          "richnessRatio": 1.15
         }
       ]
     },
@@ -3447,9 +3447,9 @@
       "totalPrizeValueAtLaunch": 24962010,
       "ticketsRemaining": 1776704,
       "ticketsRemainingFraction": 0.24200006810365376,
-      "prizesRemainingValue": 5853340,
+      "prizesRemainingValue": 5840000,
       "buyAllCost": 8883520,
-      "buyAllProfit": -3030180,
+      "buyAllProfit": -3043520,
       "richnessRatio": 0.97,
       "tiers": [
         {
@@ -3467,44 +3467,44 @@
         {
           "prize": 500,
           "originalCount": 2314,
-          "remaining": 502,
-          "richnessRatio": 0.9
+          "remaining": 500,
+          "richnessRatio": 0.89
         },
         {
           "prize": 200,
           "originalCount": 3075,
-          "remaining": 689,
-          "richnessRatio": 0.93
+          "remaining": 685,
+          "richnessRatio": 0.92
         },
         {
           "prize": 100,
           "originalCount": 29017,
-          "remaining": 6307,
+          "remaining": 6289,
           "richnessRatio": 0.9
         },
         {
           "prize": 50,
           "originalCount": 49977,
-          "remaining": 11033,
+          "remaining": 11019,
           "richnessRatio": 0.91
         },
         {
           "prize": 25,
           "originalCount": 293713,
-          "remaining": 66065,
+          "remaining": 65903,
           "richnessRatio": 0.93
         },
         {
           "prize": 10,
           "originalCount": 636185,
-          "remaining": 151600,
+          "remaining": 151285,
           "richnessRatio": 0.98
         },
         {
           "prize": 5,
           "originalCount": 709757,
-          "remaining": 181513,
-          "richnessRatio": 1.06
+          "remaining": 181145,
+          "richnessRatio": 1.05
         }
       ]
     },
@@ -3514,11 +3514,11 @@
       "ticketPrice": 30,
       "totalTicketsPrinted": 8197000,
       "totalPrizeValueAtLaunch": 184308330,
-      "ticketsRemaining": 5451005,
-      "ticketsRemainingFraction": 0.665,
-      "prizesRemainingValue": 121152650,
-      "buyAllCost": 163530150,
-      "buyAllProfit": -42377500,
+      "ticketsRemaining": 5442808,
+      "ticketsRemainingFraction": 0.664,
+      "prizesRemainingValue": 120908870,
+      "buyAllCost": 163284240,
+      "buyAllProfit": -42375370,
       "richnessRatio": 0.99,
       "tiers": [
         {
@@ -3536,37 +3536,37 @@
         {
           "prize": 500,
           "originalCount": 15412,
-          "remaining": 10283,
+          "remaining": 10265,
           "richnessRatio": 1
         },
         {
           "prize": 300,
           "originalCount": 127869,
-          "remaining": 84784,
+          "remaining": 84600,
           "richnessRatio": 1
         },
         {
           "prize": 150,
           "originalCount": 204963,
-          "remaining": 135999,
+          "remaining": 135702,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 410035,
-          "remaining": 272111,
+          "remaining": 271561,
           "richnessRatio": 1
         },
         {
           "prize": 50,
           "originalCount": 573722,
-          "remaining": 381590,
+          "remaining": 380791,
           "richnessRatio": 1
         },
         {
           "prize": 30,
           "originalCount": 983286,
-          "remaining": 655250,
+          "remaining": 653914,
           "richnessRatio": 1
         }
       ]
@@ -3577,11 +3577,11 @@
       "ticketPrice": 10,
       "totalTicketsPrinted": 8190100,
       "totalPrizeValueAtLaunch": 57314530,
-      "ticketsRemaining": 4832159,
-      "ticketsRemainingFraction": 0.59,
-      "prizesRemainingValue": 33671560,
-      "buyAllCost": 48321590,
-      "buyAllProfit": -14650030,
+      "ticketsRemaining": 4815779,
+      "ticketsRemainingFraction": 0.5880000244197262,
+      "prizesRemainingValue": 33569980,
+      "buyAllCost": 48157790,
+      "buyAllProfit": -14587810,
       "richnessRatio": 1,
       "tiers": [
         {
@@ -3594,48 +3594,48 @@
           "prize": 10000,
           "originalCount": 12,
           "remaining": 9,
-          "richnessRatio": 1.27
+          "richnessRatio": 1.28
         },
         {
           "prize": 1000,
           "originalCount": 276,
-          "remaining": 164,
-          "richnessRatio": 1.01
+          "remaining": 163,
+          "richnessRatio": 1
         },
         {
           "prize": 500,
           "originalCount": 7748,
-          "remaining": 4529,
+          "remaining": 4519,
           "richnessRatio": 0.99
         },
         {
           "prize": 100,
           "originalCount": 133012,
-          "remaining": 77610,
+          "remaining": 77376,
           "richnessRatio": 0.99
         },
         {
           "prize": 50,
           "originalCount": 163802,
-          "remaining": 95672,
+          "remaining": 95371,
           "richnessRatio": 0.99
         },
         {
           "prize": 30,
           "originalCount": 327604,
-          "remaining": 191954,
+          "remaining": 191328,
           "richnessRatio": 0.99
         },
         {
           "prize": 20,
           "originalCount": 573378,
-          "remaining": 336650,
+          "remaining": 335573,
           "richnessRatio": 1
         },
         {
           "prize": 10,
           "originalCount": 900755,
-          "remaining": 536684,
+          "remaining": 535003,
           "richnessRatio": 1.01
         }
       ]
@@ -3646,11 +3646,11 @@
       "ticketPrice": 1,
       "totalTicketsPrinted": 16274700,
       "totalPrizeValueAtLaunch": 9790993,
-      "ticketsRemaining": 11262092,
-      "ticketsRemainingFraction": 0.691999975421974,
-      "prizesRemainingValue": 6640076,
-      "buyAllCost": 11262092,
-      "buyAllProfit": -4622016,
+      "ticketsRemaining": 11196994,
+      "ticketsRemainingFraction": 0.688000024578026,
+      "prizesRemainingValue": 6596708,
+      "buyAllCost": 11196994,
+      "buyAllProfit": -4600286,
       "richnessRatio": 0.98,
       "tiers": [
         {
@@ -3662,55 +3662,55 @@
         {
           "prize": 90,
           "originalCount": 1171,
-          "remaining": 750,
-          "richnessRatio": 0.93
+          "remaining": 745,
+          "richnessRatio": 0.92
         },
         {
           "prize": 60,
           "originalCount": 1235,
-          "remaining": 795,
+          "remaining": 790,
           "richnessRatio": 0.93
         },
         {
           "prize": 30,
           "originalCount": 5058,
-          "remaining": 3290,
+          "remaining": 3271,
           "richnessRatio": 0.94
         },
         {
           "prize": 20,
           "originalCount": 108498,
-          "remaining": 71839,
+          "remaining": 71328,
           "richnessRatio": 0.96
         },
         {
           "prize": 10,
           "originalCount": 135690,
-          "remaining": 88785,
-          "richnessRatio": 0.95
+          "remaining": 88133,
+          "richnessRatio": 0.94
         },
         {
           "prize": 6,
           "originalCount": 189989,
-          "remaining": 128486,
+          "remaining": 127600,
           "richnessRatio": 0.98
         },
         {
           "prize": 3,
           "originalCount": 325327,
-          "remaining": 218099,
+          "remaining": 216675,
           "richnessRatio": 0.97
         },
         {
           "prize": 2,
           "originalCount": 1084759,
-          "remaining": 767865,
+          "remaining": 763472,
           "richnessRatio": 1.02
         },
         {
           "prize": 1,
           "originalCount": 1627470,
-          "remaining": 1127603,
+          "remaining": 1120669,
           "richnessRatio": 1
         }
       ]
@@ -3721,11 +3721,11 @@
       "ticketPrice": 5,
       "totalTicketsPrinted": 10153650,
       "totalPrizeValueAtLaunch": 32671070,
-      "ticketsRemaining": 4711294,
-      "ticketsRemainingFraction": 0.4640000393947004,
-      "prizesRemainingValue": 14678630,
-      "buyAllCost": 23556470,
-      "buyAllProfit": -8877840,
+      "ticketsRemaining": 4701140,
+      "ticketsRemainingFraction": 0.46300000492433757,
+      "prizesRemainingValue": 14641830,
+      "buyAllCost": 23505700,
+      "buyAllProfit": -8863870,
       "richnessRatio": 0.97,
       "tiers": [
         {
@@ -3738,60 +3738,60 @@
           "prize": 5000,
           "originalCount": 10,
           "remaining": 6,
-          "richnessRatio": 1.29
+          "richnessRatio": 1.3
         },
         {
           "prize": 1000,
           "originalCount": 103,
-          "remaining": 49,
-          "richnessRatio": 1.03
+          "remaining": 48,
+          "richnessRatio": 1.01
         },
         {
           "prize": 500,
           "originalCount": 862,
-          "remaining": 371,
+          "remaining": 370,
           "richnessRatio": 0.93
         },
         {
           "prize": 200,
           "originalCount": 4222,
-          "remaining": 1884,
+          "remaining": 1879,
           "richnessRatio": 0.96
         },
         {
           "prize": 100,
           "originalCount": 21507,
-          "remaining": 9647,
+          "remaining": 9622,
           "richnessRatio": 0.97
         },
         {
           "prize": 50,
           "originalCount": 135382,
-          "remaining": 61174,
+          "remaining": 61025,
           "richnessRatio": 0.97
         },
         {
           "prize": 25,
           "originalCount": 135382,
-          "remaining": 61324,
+          "remaining": 61170,
           "richnessRatio": 0.98
         },
         {
           "prize": 20,
           "originalCount": 236927,
-          "remaining": 107221,
-          "richnessRatio": 0.98
+          "remaining": 106942,
+          "richnessRatio": 0.97
         },
         {
           "prize": 10,
           "originalCount": 812278,
-          "remaining": 373777,
+          "remaining": 372848,
           "richnessRatio": 0.99
         },
         {
           "prize": 5,
           "originalCount": 1015400,
-          "remaining": 479728,
+          "remaining": 478602,
           "richnessRatio": 1.02
         }
       ]
@@ -3802,18 +3802,18 @@
       "ticketPrice": 10,
       "totalTicketsPrinted": 7635950,
       "totalPrizeValueAtLaunch": 50474470,
-      "ticketsRemaining": 3000928,
-      "ticketsRemainingFraction": 0.3929999541641839,
-      "prizesRemainingValue": 19857230,
-      "buyAllCost": 30009280,
-      "buyAllProfit": -10152050,
+      "ticketsRemaining": 2985656,
+      "ticketsRemainingFraction": 0.39099994106823643,
+      "prizesRemainingValue": 19775560,
+      "buyAllCost": 29856560,
+      "buyAllProfit": -10081000,
       "richnessRatio": 1,
       "tiers": [
         {
           "prize": 500000,
           "originalCount": 4,
           "remaining": 2,
-          "richnessRatio": 1.27
+          "richnessRatio": 1.28
         },
         {
           "prize": 50000,
@@ -3825,13 +3825,13 @@
           "prize": 10000,
           "originalCount": 8,
           "remaining": 4,
-          "richnessRatio": 1.27
+          "richnessRatio": 1.28
         },
         {
           "prize": 1000,
           "originalCount": 191,
-          "remaining": 79,
-          "richnessRatio": 1.05
+          "remaining": 76,
+          "richnessRatio": 1.02
         },
         {
           "prize": 500,
@@ -3842,37 +3842,37 @@
         {
           "prize": 200,
           "originalCount": 12727,
-          "remaining": 4960,
+          "remaining": 4942,
           "richnessRatio": 0.99
         },
         {
           "prize": 100,
           "originalCount": 96977,
-          "remaining": 37395,
+          "remaining": 37246,
           "richnessRatio": 0.98
         },
         {
           "prize": 50,
           "originalCount": 152688,
-          "remaining": 58848,
+          "remaining": 58611,
           "richnessRatio": 0.98
         },
         {
           "prize": 30,
           "originalCount": 343712,
-          "remaining": 133073,
+          "remaining": 132452,
           "richnessRatio": 0.99
         },
         {
           "prize": 20,
           "originalCount": 458090,
-          "remaining": 178374,
+          "remaining": 177590,
           "richnessRatio": 0.99
         },
         {
           "prize": 10,
           "originalCount": 801781,
-          "remaining": 320866,
+          "remaining": 319465,
           "richnessRatio": 1.02
         }
       ]
@@ -3883,11 +3883,11 @@
       "ticketPrice": 20,
       "totalTicketsPrinted": 5134275,
       "totalPrizeValueAtLaunch": 72610120,
-      "ticketsRemaining": 2233410,
-      "ticketsRemainingFraction": 0.43500007303854976,
-      "prizesRemainingValue": 31736510,
-      "buyAllCost": 44668200,
-      "buyAllProfit": -12931690,
+      "ticketsRemaining": 2228275,
+      "ticketsRemainingFraction": 0.4339999318306869,
+      "prizesRemainingValue": 31632180,
+      "buyAllCost": 44565500,
+      "buyAllProfit": -12933320,
       "richnessRatio": 1,
       "tiers": [
         {
@@ -3906,7 +3906,7 @@
           "prize": 20000,
           "originalCount": 20,
           "remaining": 11,
-          "richnessRatio": 1.26
+          "richnessRatio": 1.27
         },
         {
           "prize": 2000,
@@ -3917,37 +3917,37 @@
         {
           "prize": 500,
           "originalCount": 4299,
-          "remaining": 1847,
+          "remaining": 1843,
           "richnessRatio": 0.99
         },
         {
           "prize": 200,
           "originalCount": 58204,
-          "remaining": 24979,
+          "remaining": 24891,
           "richnessRatio": 0.99
         },
         {
           "prize": 100,
           "originalCount": 128439,
-          "remaining": 55356,
+          "remaining": 55156,
           "richnessRatio": 0.99
         },
         {
           "prize": 50,
           "originalCount": 359514,
-          "remaining": 156031,
+          "remaining": 155456,
           "richnessRatio": 1
         },
         {
           "prize": 40,
           "originalCount": 308053,
-          "remaining": 133907,
+          "remaining": 133417,
           "richnessRatio": 1
         },
         {
           "prize": 20,
           "originalCount": 513205,
-          "remaining": 224889,
+          "remaining": 224070,
           "richnessRatio": 1.01
         }
       ]
@@ -3958,72 +3958,72 @@
       "ticketPrice": 2,
       "totalTicketsPrinted": 9121125,
       "totalPrizeValueAtLaunch": 11873994,
-      "ticketsRemaining": 3383937,
-      "ticketsRemainingFraction": 0.3709999588866505,
-      "prizesRemainingValue": 4224521,
-      "buyAllCost": 6767874,
-      "buyAllProfit": -2543353,
+      "ticketsRemaining": 3347453,
+      "ticketsRemainingFraction": 0.36700001370444985,
+      "prizesRemainingValue": 4183408,
+      "buyAllCost": 6694906,
+      "buyAllProfit": -2511498,
       "richnessRatio": 0.96,
       "tiers": [
         {
           "prize": 30000,
           "originalCount": 5,
           "remaining": 2,
-          "richnessRatio": 1.08
+          "richnessRatio": 1.09
         },
         {
           "prize": 1000,
           "originalCount": 15,
           "remaining": 4,
-          "richnessRatio": 0.72
+          "richnessRatio": 0.73
         },
         {
           "prize": 500,
           "originalCount": 1672,
-          "remaining": 562,
+          "remaining": 556,
           "richnessRatio": 0.91
         },
         {
           "prize": 100,
           "originalCount": 3491,
-          "remaining": 1168,
+          "remaining": 1157,
           "richnessRatio": 0.9
         },
         {
           "prize": 50,
           "originalCount": 26596,
-          "remaining": 9055,
+          "remaining": 8962,
           "richnessRatio": 0.92
         },
         {
           "prize": 20,
           "originalCount": 91160,
-          "remaining": 31275,
+          "remaining": 30942,
           "richnessRatio": 0.92
         },
         {
           "prize": 15,
           "originalCount": 73037,
-          "remaining": 25311,
+          "remaining": 25059,
           "richnessRatio": 0.93
         },
         {
           "prize": 10,
           "originalCount": 145870,
-          "remaining": 51876,
+          "remaining": 51344,
           "richnessRatio": 0.96
         },
         {
           "prize": 5,
           "originalCount": 583889,
-          "remaining": 211732,
+          "remaining": 209697,
           "richnessRatio": 0.98
         },
         {
           "prize": 2,
           "originalCount": 948597,
-          "remaining": 363693,
-          "richnessRatio": 1.03
+          "remaining": 360479,
+          "richnessRatio": 1.04
         }
       ]
     },
@@ -4033,77 +4033,77 @@
       "ticketPrice": 5,
       "totalTicketsPrinted": 22347825,
       "totalPrizeValueAtLaunch": 76153000,
-      "ticketsRemaining": 15509391,
-      "ticketsRemainingFraction": 0.6940000201361878,
-      "prizesRemainingValue": 52334105,
-      "buyAllCost": 77546955,
-      "buyAllProfit": -25212850,
+      "ticketsRemaining": 15442347,
+      "ticketsRemainingFraction": 0.6909999966439687,
+      "prizesRemainingValue": 52158535,
+      "buyAllCost": 77211735,
+      "buyAllProfit": -25053200,
       "richnessRatio": 0.99,
       "tiers": [
         {
           "prize": 100000,
           "originalCount": 10,
           "remaining": 6,
-          "richnessRatio": 0.86
+          "richnessRatio": 0.87
         },
         {
           "prize": 1000,
           "originalCount": 223,
-          "remaining": 148,
-          "richnessRatio": 0.96
+          "remaining": 147,
+          "richnessRatio": 0.95
         },
         {
           "prize": 500,
           "originalCount": 1683,
-          "remaining": 1149,
+          "remaining": 1144,
           "richnessRatio": 0.98
         },
         {
           "prize": 200,
           "originalCount": 4468,
-          "remaining": 3085,
-          "richnessRatio": 0.99
+          "remaining": 3077,
+          "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 46657,
-          "remaining": 31806,
+          "remaining": 31697,
           "richnessRatio": 0.98
         },
         {
           "prize": 50,
           "originalCount": 223383,
-          "remaining": 152962,
+          "remaining": 152428,
           "richnessRatio": 0.99
         },
         {
           "prize": 25,
           "originalCount": 447083,
-          "remaining": 306270,
+          "remaining": 305217,
           "richnessRatio": 0.99
         },
         {
           "prize": 20,
           "originalCount": 595900,
-          "remaining": 408738,
+          "remaining": 407325,
           "richnessRatio": 0.99
         },
         {
           "prize": 15,
           "originalCount": 893933,
-          "remaining": 613482,
+          "remaining": 611405,
           "richnessRatio": 0.99
         },
         {
           "prize": 10,
           "originalCount": 893731,
-          "remaining": 615918,
+          "remaining": 613833,
           "richnessRatio": 0.99
         },
         {
           "prize": 5,
           "originalCount": 2383734,
-          "remaining": 1674597,
+          "remaining": 1669341,
           "richnessRatio": 1.01
         }
       ]
@@ -4114,11 +4114,11 @@
       "ticketPrice": 5,
       "totalTicketsPrinted": 61191675,
       "totalPrizeValueAtLaunch": 207970745,
-      "ticketsRemaining": 53909866,
-      "ticketsRemainingFraction": 0.88100000531118,
-      "prizesRemainingValue": 182849275,
-      "buyAllCost": 269549330,
-      "buyAllProfit": -86700055,
+      "ticketsRemaining": 53848674,
+      "ticketsRemainingFraction": 0.88,
+      "prizesRemainingValue": 182572645,
+      "buyAllCost": 269243370,
+      "buyAllProfit": -86670725,
       "richnessRatio": 1,
       "tiers": [
         {
@@ -4136,49 +4136,49 @@
         {
           "prize": 500,
           "originalCount": 6077,
-          "remaining": 5318,
+          "remaining": 5311,
           "richnessRatio": 0.99
         },
         {
           "prize": 200,
           "originalCount": 41781,
-          "remaining": 36597,
+          "remaining": 36544,
           "richnessRatio": 0.99
         },
         {
           "prize": 100,
           "originalCount": 255538,
-          "remaining": 224026,
-          "richnessRatio": 1
+          "remaining": 223663,
+          "richnessRatio": 0.99
         },
         {
           "prize": 50,
           "originalCount": 815889,
-          "remaining": 715496,
+          "remaining": 714412,
           "richnessRatio": 1
         },
         {
           "prize": 20,
           "originalCount": 815889,
-          "remaining": 716056,
+          "remaining": 714974,
           "richnessRatio": 1
         },
         {
           "prize": 15,
           "originalCount": 815889,
-          "remaining": 716686,
+          "remaining": 715596,
           "richnessRatio": 1
         },
         {
           "prize": 10,
           "originalCount": 6119173,
-          "remaining": 5382561,
+          "remaining": 5374072,
           "richnessRatio": 1
         },
         {
           "prize": 5,
           "originalCount": 7342990,
-          "remaining": 6486291,
+          "remaining": 6476461,
           "richnessRatio": 1
         }
       ]
@@ -4191,10 +4191,10 @@
       "totalPrizeValueAtLaunch": 91557160,
       "ticketsRemaining": 2619066,
       "ticketsRemainingFraction": 0.42899992629052996,
-      "prizesRemainingValue": 39481800,
+      "prizesRemainingValue": 39434420,
       "buyAllCost": 52381320,
-      "buyAllProfit": -12899520,
-      "richnessRatio": 1.01,
+      "buyAllProfit": -12946900,
+      "richnessRatio": 1,
       "tiers": [
         {
           "prize": 1000000,
@@ -4217,31 +4217,31 @@
         {
           "prize": 500,
           "originalCount": 3833,
-          "remaining": 1620,
-          "richnessRatio": 0.99
+          "remaining": 1619,
+          "richnessRatio": 0.98
         },
         {
           "prize": 200,
           "originalCount": 62292,
-          "remaining": 26615,
-          "richnessRatio": 1
+          "remaining": 26584,
+          "richnessRatio": 0.99
         },
         {
           "prize": 100,
           "originalCount": 341890,
-          "remaining": 145728,
+          "remaining": 145542,
           "richnessRatio": 0.99
         },
         {
           "prize": 50,
           "originalCount": 537230,
-          "remaining": 230342,
+          "remaining": 230042,
           "richnessRatio": 1
         },
         {
           "prize": 20,
           "originalCount": 586038,
-          "remaining": 253145,
+          "remaining": 252791,
           "richnessRatio": 1.01
         }
       ]
@@ -4252,24 +4252,24 @@
       "ticketPrice": 5,
       "totalTicketsPrinted": 7249200,
       "totalPrizeValueAtLaunch": 24491595,
-      "ticketsRemaining": 3697092,
-      "ticketsRemainingFraction": 0.51,
-      "prizesRemainingValue": 12292295,
-      "buyAllCost": 18485460,
-      "buyAllProfit": -6193165,
-      "richnessRatio": 0.98,
+      "ticketsRemaining": 3682594,
+      "ticketsRemainingFraction": 0.5080000551785024,
+      "prizesRemainingValue": 12255665,
+      "buyAllCost": 18412970,
+      "buyAllProfit": -6157305,
+      "richnessRatio": 0.99,
       "tiers": [
         {
           "prize": 100000,
           "originalCount": 5,
           "remaining": 2,
-          "richnessRatio": 0.78
+          "richnessRatio": 0.79
         },
         {
           "prize": 1000,
           "originalCount": 51,
           "remaining": 30,
-          "richnessRatio": 1.15
+          "richnessRatio": 1.16
         },
         {
           "prize": 500,
@@ -4280,43 +4280,43 @@
         {
           "prize": 250,
           "originalCount": 7662,
-          "remaining": 3806,
+          "remaining": 3791,
           "richnessRatio": 0.97
         },
         {
           "prize": 100,
           "originalCount": 16162,
-          "remaining": 7994,
+          "remaining": 7971,
           "richnessRatio": 0.97
         },
         {
           "prize": 50,
           "originalCount": 42280,
-          "remaining": 20865,
+          "remaining": 20805,
           "richnessRatio": 0.97
         },
         {
           "prize": 20,
           "originalCount": 309310,
-          "remaining": 155402,
+          "remaining": 154898,
           "richnessRatio": 0.99
         },
         {
           "prize": 15,
           "originalCount": 270733,
-          "remaining": 136543,
+          "remaining": 136122,
           "richnessRatio": 0.99
         },
         {
           "prize": 10,
           "originalCount": 347844,
-          "remaining": 176459,
-          "richnessRatio": 0.99
+          "remaining": 175915,
+          "richnessRatio": 1
         },
         {
           "prize": 5,
           "originalCount": 695852,
-          "remaining": 360874,
+          "remaining": 359725,
           "richnessRatio": 1.02
         }
       ]
@@ -4327,83 +4327,83 @@
       "ticketPrice": 5,
       "totalTicketsPrinted": 5092500,
       "totalPrizeValueAtLaunch": 17330405,
-      "ticketsRemaining": 1318958,
-      "ticketsRemainingFraction": 0.2590000981836033,
-      "prizesRemainingValue": 4277810,
-      "buyAllCost": 6594790,
-      "buyAllProfit": -2316980,
+      "ticketsRemaining": 1303680,
+      "ticketsRemainingFraction": 0.256,
+      "prizesRemainingValue": 4221700,
+      "buyAllCost": 6518400,
+      "buyAllProfit": -2296700,
       "richnessRatio": 0.95,
       "tiers": [
         {
           "prize": 100000,
           "originalCount": 5,
           "remaining": 1,
-          "richnessRatio": 0.77
+          "richnessRatio": 0.78
         },
         {
           "prize": 5000,
           "originalCount": 5,
           "remaining": 2,
-          "richnessRatio": 1.54
+          "richnessRatio": 1.56
         },
         {
           "prize": 1000,
           "originalCount": 15,
           "remaining": 6,
-          "richnessRatio": 1.54
+          "richnessRatio": 1.56
         },
         {
           "prize": 500,
           "originalCount": 649,
-          "remaining": 161,
-          "richnessRatio": 0.96
+          "remaining": 158,
+          "richnessRatio": 0.95
         },
         {
           "prize": 200,
           "originalCount": 2132,
-          "remaining": 508,
+          "remaining": 502,
           "richnessRatio": 0.92
         },
         {
           "prize": 100,
           "originalCount": 10641,
-          "remaining": 2511,
+          "remaining": 2477,
           "richnessRatio": 0.91
         },
         {
           "prize": 50,
           "originalCount": 44878,
-          "remaining": 10159,
+          "remaining": 10020,
           "richnessRatio": 0.87
         },
         {
           "prize": 25,
           "originalCount": 67994,
-          "remaining": 16533,
+          "remaining": 16307,
           "richnessRatio": 0.94
         },
         {
           "prize": 20,
           "originalCount": 169676,
-          "remaining": 41316,
+          "remaining": 40753,
           "richnessRatio": 0.94
         },
         {
           "prize": 15,
           "originalCount": 113123,
-          "remaining": 27896,
+          "remaining": 27500,
           "richnessRatio": 0.95
         },
         {
           "prize": 10,
           "originalCount": 339575,
-          "remaining": 85928,
+          "remaining": 84776,
           "richnessRatio": 0.98
         },
         {
           "prize": 5,
           "originalCount": 509108,
-          "remaining": 140659,
+          "remaining": 138921,
           "richnessRatio": 1.07
         }
       ]
@@ -4416,9 +4416,9 @@
       "totalPrizeValueAtLaunch": 24890090,
       "ticketsRemaining": 900268,
       "ticketsRemainingFraction": 0.12300003415650511,
-      "prizesRemainingValue": 2951600,
+      "prizesRemainingValue": 2940435,
       "buyAllCost": 4501340,
-      "buyAllProfit": -1549740,
+      "buyAllProfit": -1560905,
       "richnessRatio": 0.96,
       "tiers": [
         {
@@ -4448,62 +4448,62 @@
         {
           "prize": 300,
           "originalCount": 1620,
-          "remaining": 166,
-          "richnessRatio": 0.83
+          "remaining": 164,
+          "richnessRatio": 0.82
         },
         {
           "prize": 200,
           "originalCount": 2549,
-          "remaining": 284,
-          "richnessRatio": 0.91
+          "remaining": 283,
+          "richnessRatio": 0.9
         },
         {
           "prize": 100,
           "originalCount": 18386,
-          "remaining": 2287,
+          "remaining": 2278,
           "richnessRatio": 1.01
         },
         {
           "prize": 75,
           "originalCount": 7620,
-          "remaining": 740,
+          "remaining": 736,
           "richnessRatio": 0.79
         },
         {
           "prize": 50,
           "originalCount": 97590,
-          "remaining": 10935,
+          "remaining": 10893,
           "richnessRatio": 0.91
         },
         {
           "prize": 25,
           "originalCount": 97606,
-          "remaining": 10531,
-          "richnessRatio": 0.88
+          "remaining": 10483,
+          "richnessRatio": 0.87
         },
         {
           "prize": 20,
           "originalCount": 122214,
-          "remaining": 13208,
+          "remaining": 13162,
           "richnessRatio": 0.88
         },
         {
           "prize": 15,
           "originalCount": 121807,
-          "remaining": 13021,
-          "richnessRatio": 0.87
+          "remaining": 12954,
+          "richnessRatio": 0.86
         },
         {
           "prize": 10,
           "originalCount": 439176,
-          "remaining": 50808,
+          "remaining": 50616,
           "richnessRatio": 0.94
         },
         {
           "prize": 5,
           "originalCount": 853679,
-          "remaining": 115044,
-          "richnessRatio": 1.1
+          "remaining": 114640,
+          "richnessRatio": 1.09
         }
       ]
     },
@@ -4513,24 +4513,24 @@
       "ticketPrice": 20,
       "totalTicketsPrinted": 14800925,
       "totalPrizeValueAtLaunch": 222159710,
-      "ticketsRemaining": 12284768,
-      "ticketsRemainingFraction": 0.8300000168908362,
-      "prizesRemainingValue": 184267170,
-      "buyAllCost": 245695360,
-      "buyAllProfit": -61428190,
+      "ticketsRemaining": 12255166,
+      "ticketsRemainingFraction": 0.8280000067563345,
+      "prizesRemainingValue": 183860110,
+      "buyAllCost": 245103320,
+      "buyAllProfit": -61243210,
       "richnessRatio": 1,
       "tiers": [
         {
           "prize": 1000000,
           "originalCount": 6,
           "remaining": 5,
-          "richnessRatio": 1
+          "richnessRatio": 1.01
         },
         {
           "prize": 20000,
           "originalCount": 20,
           "remaining": 15,
-          "richnessRatio": 0.9
+          "richnessRatio": 0.91
         },
         {
           "prize": 2000,
@@ -4541,43 +4541,43 @@
         {
           "prize": 500,
           "originalCount": 10476,
-          "remaining": 8697,
+          "remaining": 8672,
           "richnessRatio": 1
         },
         {
           "prize": 200,
           "originalCount": 123293,
-          "remaining": 102189,
+          "remaining": 101954,
           "richnessRatio": 1
         },
         {
           "prize": 150,
           "originalCount": 64749,
-          "remaining": 53730,
+          "remaining": 53627,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 690781,
-          "remaining": 572369,
+          "remaining": 571120,
           "richnessRatio": 1
         },
         {
           "prize": 50,
           "originalCount": 788958,
-          "remaining": 654015,
+          "remaining": 652454,
           "richnessRatio": 1
         },
         {
           "prize": 40,
           "originalCount": 690950,
-          "remaining": 572798,
+          "remaining": 571427,
           "richnessRatio": 1
         },
         {
           "prize": 20,
           "originalCount": 1973738,
-          "remaining": 1641590,
+          "remaining": 1637874,
           "richnessRatio": 1
         }
       ]
@@ -4588,18 +4588,18 @@
       "ticketPrice": 5,
       "totalTicketsPrinted": 9908250,
       "totalPrizeValueAtLaunch": 29805320,
-      "ticketsRemaining": 7986050,
-      "ticketsRemainingFraction": 0.806000050462998,
-      "prizesRemainingValue": 24028025,
-      "buyAllCost": 39930250,
-      "buyAllProfit": -15902225,
+      "ticketsRemaining": 7956325,
+      "ticketsRemainingFraction": 0.803000025231499,
+      "prizesRemainingValue": 23934925,
+      "buyAllCost": 39781625,
+      "buyAllProfit": -15846700,
       "richnessRatio": 1,
       "tiers": [
         {
           "prize": 100000,
           "originalCount": 4,
           "remaining": 4,
-          "richnessRatio": 1.24
+          "richnessRatio": 1.25
         },
         {
           "prize": 5000,
@@ -4610,43 +4610,43 @@
         {
           "prize": 500,
           "originalCount": 280,
-          "remaining": 224,
+          "remaining": 223,
           "richnessRatio": 0.99
         },
         {
           "prize": 100,
           "originalCount": 6632,
-          "remaining": 5274,
+          "remaining": 5251,
           "richnessRatio": 0.99
         },
         {
           "prize": 50,
           "originalCount": 68821,
-          "remaining": 54924,
+          "remaining": 54695,
           "richnessRatio": 0.99
         },
         {
           "prize": 20,
           "originalCount": 396370,
-          "remaining": 317803,
+          "remaining": 316555,
           "richnessRatio": 0.99
         },
         {
           "prize": 15,
           "originalCount": 396330,
-          "remaining": 318113,
+          "remaining": 316841,
           "richnessRatio": 1
         },
         {
           "prize": 10,
           "originalCount": 506378,
-          "remaining": 407369,
+          "remaining": 405782,
           "richnessRatio": 1
         },
         {
           "prize": 5,
           "originalCount": 1232988,
-          "remaining": 999196,
+          "remaining": 995408,
           "richnessRatio": 1.01
         }
       ]
@@ -4657,18 +4657,18 @@
       "ticketPrice": 5,
       "totalTicketsPrinted": 5472750,
       "totalPrizeValueAtLaunch": 17674350,
-      "ticketsRemaining": 3956798,
-      "ticketsRemainingFraction": 0.7229999543191266,
-      "prizesRemainingValue": 12615050,
-      "buyAllCost": 19783990,
-      "buyAllProfit": -7168940,
+      "ticketsRemaining": 3934907,
+      "ticketsRemainingFraction": 0.7189999543191266,
+      "prizesRemainingValue": 12550780,
+      "buyAllCost": 19674535,
+      "buyAllProfit": -7123755,
       "richnessRatio": 0.99,
       "tiers": [
         {
           "prize": 100000,
           "originalCount": 4,
           "remaining": 2,
-          "richnessRatio": 0.69
+          "richnessRatio": 0.7
         },
         {
           "prize": 5000,
@@ -4679,37 +4679,37 @@
         {
           "prize": 500,
           "originalCount": 1159,
-          "remaining": 822,
+          "remaining": 820,
           "richnessRatio": 0.98
         },
         {
           "prize": 100,
           "originalCount": 20954,
-          "remaining": 14849,
+          "remaining": 14781,
           "richnessRatio": 0.98
         },
         {
           "prize": 50,
           "originalCount": 42891,
-          "remaining": 30681,
+          "remaining": 30493,
           "richnessRatio": 0.99
         },
         {
           "prize": 20,
           "originalCount": 145940,
-          "remaining": 104444,
+          "remaining": 103877,
           "richnessRatio": 0.99
         },
         {
           "prize": 10,
           "originalCount": 656742,
-          "remaining": 473670,
+          "remaining": 471189,
           "richnessRatio": 1
         },
         {
           "prize": 5,
           "originalCount": 583736,
-          "remaining": 424904,
+          "remaining": 422720,
           "richnessRatio": 1.01
         }
       ]
@@ -4720,11 +4720,11 @@
       "ticketPrice": 2,
       "totalTicketsPrinted": 24413750,
       "totalPrizeValueAtLaunch": 31748586,
-      "ticketsRemaining": 21801479,
-      "ticketsRemainingFraction": 0.8930000102401311,
-      "prizesRemainingValue": 28209368,
-      "buyAllCost": 43602958,
-      "buyAllProfit": -15393590,
+      "ticketsRemaining": 21752651,
+      "ticketsRemainingFraction": 0.8909999897598689,
+      "prizesRemainingValue": 28138762,
+      "buyAllCost": 43505302,
+      "buyAllProfit": -15366540,
       "richnessRatio": 0.99,
       "tiers": [
         {
@@ -4748,61 +4748,61 @@
         {
           "prize": 500,
           "originalCount": 934,
-          "remaining": 833,
+          "remaining": 830,
           "richnessRatio": 1
         },
         {
           "prize": 200,
           "originalCount": 10172,
-          "remaining": 9003,
+          "remaining": 8981,
           "richnessRatio": 0.99
         },
         {
           "prize": 50,
           "originalCount": 91610,
-          "remaining": 80948,
+          "remaining": 80751,
           "richnessRatio": 0.99
         },
         {
           "prize": 20,
           "originalCount": 195310,
-          "remaining": 173138,
+          "remaining": 172685,
           "richnessRatio": 0.99
         },
         {
           "prize": 15,
           "originalCount": 195310,
-          "remaining": 173054,
+          "remaining": 172573,
           "richnessRatio": 0.99
         },
         {
           "prize": 10,
           "originalCount": 488243,
-          "remaining": 434130,
+          "remaining": 433025,
           "richnessRatio": 1
         },
         {
           "prize": 8,
           "originalCount": 97622,
-          "remaining": 86901,
+          "remaining": 86702,
           "richnessRatio": 1
         },
         {
           "prize": 5,
           "originalCount": 293062,
-          "remaining": 261180,
+          "remaining": 260497,
           "richnessRatio": 1
         },
         {
           "prize": 4,
           "originalCount": 1367170,
-          "remaining": 1220489,
+          "remaining": 1217394,
           "richnessRatio": 1
         },
         {
           "prize": 2,
           "originalCount": 2343720,
-          "remaining": 2100467,
+          "remaining": 2095395,
           "richnessRatio": 1
         }
       ]
@@ -4813,11 +4813,11 @@
       "ticketPrice": 20,
       "totalTicketsPrinted": 25701775,
       "totalPrizeValueAtLaunch": 385370190,
-      "ticketsRemaining": 23337212,
-      "ticketsRemainingFraction": 0.9080000116723456,
-      "prizesRemainingValue": 350097510,
-      "buyAllCost": 466744240,
-      "buyAllProfit": -116646730,
+      "ticketsRemaining": 23311510,
+      "ticketsRemainingFraction": 0.9070000029180864,
+      "prizesRemainingValue": 349464420,
+      "buyAllCost": 466230200,
+      "buyAllProfit": -116765780,
       "richnessRatio": 1,
       "tiers": [
         {
@@ -4836,66 +4836,66 @@
           "prize": 5000,
           "originalCount": 343,
           "remaining": 322,
-          "richnessRatio": 1.03
+          "richnessRatio": 1.04
         },
         {
           "prize": 1000,
           "originalCount": 2581,
-          "remaining": 2366,
+          "remaining": 2364,
           "richnessRatio": 1.01
         },
         {
           "prize": 500,
           "originalCount": 12035,
-          "remaining": 10932,
+          "remaining": 10913,
           "richnessRatio": 1
         },
         {
           "prize": 250,
           "originalCount": 66748,
-          "remaining": 60667,
+          "remaining": 60546,
           "richnessRatio": 1
         },
         {
           "prize": 200,
           "originalCount": 185051,
-          "remaining": 168100,
+          "remaining": 167786,
           "richnessRatio": 1
         },
         {
           "prize": 150,
           "originalCount": 205886,
-          "remaining": 186979,
+          "remaining": 186600,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 919945,
-          "remaining": 835478,
+          "remaining": 833920,
           "richnessRatio": 1
         },
         {
           "prize": 50,
           "originalCount": 1028071,
-          "remaining": 933412,
+          "remaining": 931746,
           "richnessRatio": 1
         },
         {
           "prize": 40,
           "originalCount": 514059,
-          "remaining": 466725,
+          "remaining": 465818,
           "richnessRatio": 1
         },
         {
           "prize": 30,
           "originalCount": 1799106,
-          "remaining": 1634365,
+          "remaining": 1631278,
           "richnessRatio": 1
         },
         {
           "prize": 20,
           "originalCount": 3084150,
-          "remaining": 2803178,
+          "remaining": 2797993,
           "richnessRatio": 1
         }
       ]
@@ -4906,72 +4906,72 @@
       "ticketPrice": 5,
       "totalTicketsPrinted": 10130850,
       "totalPrizeValueAtLaunch": 34451480,
-      "ticketsRemaining": 1560151,
-      "ticketsRemainingFraction": 0.15400000987084006,
-      "prizesRemainingValue": 4996650,
-      "buyAllCost": 7800755,
-      "buyAllProfit": -2804105,
+      "ticketsRemaining": 1529758,
+      "ticketsRemainingFraction": 0.1509999654520598,
+      "prizesRemainingValue": 4897765,
+      "buyAllCost": 7648790,
+      "buyAllProfit": -2751025,
       "richnessRatio": 0.94,
       "tiers": [
         {
           "prize": 100000,
           "originalCount": 5,
           "remaining": 1,
-          "richnessRatio": 1.3
+          "richnessRatio": 1.32
         },
         {
           "prize": 5000,
           "originalCount": 25,
           "remaining": 7,
-          "richnessRatio": 1.82
+          "richnessRatio": 1.85
         },
         {
           "prize": 500,
           "originalCount": 1012,
-          "remaining": 135,
+          "remaining": 133,
           "richnessRatio": 0.87
         },
         {
           "prize": 200,
           "originalCount": 6959,
-          "remaining": 923,
+          "remaining": 902,
           "richnessRatio": 0.86
         },
         {
           "prize": 100,
           "originalCount": 37310,
-          "remaining": 4885,
+          "remaining": 4773,
           "richnessRatio": 0.85
         },
         {
           "prize": 50,
           "originalCount": 135078,
-          "remaining": 18134,
+          "remaining": 17741,
           "richnessRatio": 0.87
         },
         {
           "prize": 20,
           "originalCount": 202598,
-          "remaining": 27700,
+          "remaining": 27075,
           "richnessRatio": 0.89
         },
         {
           "prize": 15,
           "originalCount": 135078,
-          "remaining": 18958,
+          "remaining": 18589,
           "richnessRatio": 0.91
         },
         {
           "prize": 10,
           "originalCount": 945537,
-          "remaining": 138934,
+          "remaining": 136227,
           "richnessRatio": 0.95
         },
         {
           "prize": 5,
           "originalCount": 1182056,
-          "remaining": 197328,
-          "richnessRatio": 1.08
+          "remaining": 193782,
+          "richnessRatio": 1.09
         }
       ]
     },
@@ -4981,11 +4981,11 @@
       "ticketPrice": 5,
       "totalTicketsPrinted": 11207850,
       "totalPrizeValueAtLaunch": 38103755,
-      "ticketsRemaining": 8652460,
-      "ticketsRemainingFraction": 0.7719999821553644,
-      "prizesRemainingValue": 29417220,
-      "buyAllCost": 43262300,
-      "buyAllProfit": -13845080,
+      "ticketsRemaining": 8596421,
+      "ticketsRemainingFraction": 0.7670000044611589,
+      "prizesRemainingValue": 29241210,
+      "buyAllCost": 42982105,
+      "buyAllProfit": -13740895,
       "richnessRatio": 1,
       "tiers": [
         {
@@ -5003,55 +5003,55 @@
         {
           "prize": 1000,
           "originalCount": 102,
-          "remaining": 77,
-          "richnessRatio": 0.98
+          "remaining": 76,
+          "richnessRatio": 0.97
         },
         {
           "prize": 500,
           "originalCount": 1424,
-          "remaining": 1108,
+          "remaining": 1104,
           "richnessRatio": 1.01
         },
         {
           "prize": 200,
           "originalCount": 2912,
-          "remaining": 2246,
+          "remaining": 2230,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 27941,
-          "remaining": 21281,
+          "remaining": 21165,
           "richnessRatio": 0.99
         },
         {
           "prize": 50,
           "originalCount": 149438,
-          "remaining": 113751,
+          "remaining": 113029,
           "richnessRatio": 0.99
         },
         {
           "prize": 25,
           "originalCount": 149400,
-          "remaining": 113985,
+          "remaining": 113289,
           "richnessRatio": 0.99
         },
         {
           "prize": 20,
           "originalCount": 448352,
-          "remaining": 342779,
+          "remaining": 340582,
           "richnessRatio": 0.99
         },
         {
           "prize": 10,
           "originalCount": 709807,
-          "remaining": 546972,
+          "remaining": 543595,
           "richnessRatio": 1
         },
         {
           "prize": 5,
           "originalCount": 1158249,
-          "remaining": 901289,
+          "remaining": 895889,
           "richnessRatio": 1.01
         }
       ]
@@ -5062,72 +5062,72 @@
       "ticketPrice": 10,
       "totalTicketsPrinted": 8109400,
       "totalPrizeValueAtLaunch": 56761320,
-      "ticketsRemaining": 6333441,
-      "ticketsRemainingFraction": 0.7809999506745259,
-      "prizesRemainingValue": 44183200,
-      "buyAllCost": 63334410,
-      "buyAllProfit": -19151210,
+      "ticketsRemaining": 6301004,
+      "ticketsRemainingFraction": 0.7770000246627371,
+      "prizesRemainingValue": 43934430,
+      "buyAllCost": 63010040,
+      "buyAllProfit": -19075610,
       "richnessRatio": 1,
       "tiers": [
         {
           "prize": 500000,
           "originalCount": 4,
           "remaining": 3,
-          "richnessRatio": 0.96
+          "richnessRatio": 0.97
         },
         {
           "prize": 10000,
           "originalCount": 10,
           "remaining": 9,
-          "richnessRatio": 1.15
+          "richnessRatio": 1.16
         },
         {
           "prize": 1000,
           "originalCount": 206,
           "remaining": 160,
-          "richnessRatio": 0.99
+          "richnessRatio": 1
         },
         {
           "prize": 500,
           "originalCount": 1701,
-          "remaining": 1323,
+          "remaining": 1317,
           "richnessRatio": 1
         },
         {
           "prize": 200,
           "originalCount": 16196,
-          "remaining": 12573,
+          "remaining": 12490,
           "richnessRatio": 0.99
         },
         {
           "prize": 100,
           "originalCount": 73862,
-          "remaining": 57405,
-          "richnessRatio": 1
+          "remaining": 57057,
+          "richnessRatio": 0.99
         },
         {
           "prize": 50,
           "originalCount": 202658,
-          "remaining": 157356,
+          "remaining": 156401,
           "richnessRatio": 0.99
         },
         {
           "prize": 30,
           "originalCount": 446069,
-          "remaining": 347053,
+          "remaining": 345102,
           "richnessRatio": 1
         },
         {
           "prize": 20,
           "originalCount": 567753,
-          "remaining": 443465,
+          "remaining": 440872,
           "richnessRatio": 1
         },
         {
           "prize": 10,
           "originalCount": 810939,
-          "remaining": 636791,
-          "richnessRatio": 1.01
+          "remaining": 633168,
+          "richnessRatio": 1
         }
       ]
     },
@@ -5137,11 +5137,11 @@
       "ticketPrice": 20,
       "totalTicketsPrinted": 6111975,
       "totalPrizeValueAtLaunch": 91623660,
-      "ticketsRemaining": 4981260,
-      "ticketsRemainingFraction": 0.8150000613549631,
-      "prizesRemainingValue": 74378370,
-      "buyAllCost": 99625200,
-      "buyAllProfit": -25246830,
+      "ticketsRemaining": 4956812,
+      "ticketsRemainingFraction": 0.8110000449936395,
+      "prizesRemainingValue": 74037480,
+      "buyAllCost": 99136240,
+      "buyAllProfit": -25098760,
       "richnessRatio": 1,
       "tiers": [
         {
@@ -5154,48 +5154,48 @@
           "prize": 25000,
           "originalCount": 12,
           "remaining": 10,
-          "richnessRatio": 1.02
+          "richnessRatio": 1.03
         },
         {
           "prize": 1000,
           "originalCount": 253,
-          "remaining": 212,
+          "remaining": 211,
           "richnessRatio": 1.03
         },
         {
           "prize": 500,
           "originalCount": 3823,
-          "remaining": 3107,
+          "remaining": 3095,
           "richnessRatio": 1
         },
         {
           "prize": 200,
           "originalCount": 62124,
-          "remaining": 50689,
+          "remaining": 50428,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 244479,
-          "remaining": 198732,
+          "remaining": 197775,
           "richnessRatio": 1
         },
         {
           "prize": 50,
           "originalCount": 305730,
-          "remaining": 248957,
+          "remaining": 247850,
           "richnessRatio": 1
         },
         {
           "prize": 40,
           "originalCount": 488770,
-          "remaining": 397926,
+          "remaining": 396019,
           "richnessRatio": 1
         },
         {
           "prize": 20,
           "originalCount": 672458,
-          "remaining": 549349,
+          "remaining": 546631,
           "richnessRatio": 1
         }
       ]
@@ -5206,11 +5206,11 @@
       "ticketPrice": 50,
       "totalTicketsPrinted": 4610380,
       "totalPrizeValueAtLaunch": 179779250,
-      "ticketsRemaining": 4020251,
-      "ticketsRemainingFraction": 0.8719999219153302,
-      "prizesRemainingValue": 157999100,
-      "buyAllCost": 201012550,
-      "buyAllProfit": -43013450,
+      "ticketsRemaining": 4006420,
+      "ticketsRemainingFraction": 0.8689999522815907,
+      "prizesRemainingValue": 157469050,
+      "buyAllCost": 200321000,
+      "buyAllProfit": -42851950,
       "richnessRatio": 1.01,
       "tiers": [
         {
@@ -5229,48 +5229,48 @@
           "prize": 5000,
           "originalCount": 56,
           "remaining": 50,
-          "richnessRatio": 1.02
+          "richnessRatio": 1.03
         },
         {
           "prize": 1000,
           "originalCount": 307,
-          "remaining": 266,
+          "remaining": 265,
           "richnessRatio": 0.99
         },
         {
           "prize": 500,
           "originalCount": 38372,
-          "remaining": 33484,
+          "remaining": 33362,
           "richnessRatio": 1
         },
         {
           "prize": 350,
           "originalCount": 42572,
-          "remaining": 37144,
+          "remaining": 37016,
           "richnessRatio": 1
         },
         {
           "prize": 250,
           "originalCount": 65464,
-          "remaining": 57137,
+          "remaining": 56937,
           "richnessRatio": 1
         },
         {
           "prize": 150,
           "originalCount": 345854,
-          "remaining": 301085,
+          "remaining": 299994,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 403314,
-          "remaining": 351634,
+          "remaining": 350340,
           "richnessRatio": 1
         },
         {
           "prize": 50,
           "originalCount": 518611,
-          "remaining": 452606,
+          "remaining": 451002,
           "richnessRatio": 1
         }
       ]
@@ -5281,18 +5281,18 @@
       "ticketPrice": 2,
       "totalTicketsPrinted": 9287750,
       "totalPrizeValueAtLaunch": 12084930,
-      "ticketsRemaining": 8479716,
-      "ticketsRemainingFraction": 0.9130000269171759,
-      "prizesRemainingValue": 10980469,
-      "buyAllCost": 16959432,
-      "buyAllProfit": -5978963,
+      "ticketsRemaining": 8423989,
+      "ticketsRemainingFraction": 0.9069999730828241,
+      "prizesRemainingValue": 10909612,
+      "buyAllCost": 16847978,
+      "buyAllProfit": -5938366,
       "richnessRatio": 1,
       "tiers": [
         {
           "prize": 30000,
           "originalCount": 6,
           "remaining": 5,
-          "richnessRatio": 0.91
+          "richnessRatio": 0.92
         },
         {
           "prize": 1000,
@@ -5303,49 +5303,49 @@
         {
           "prize": 100,
           "originalCount": 3710,
-          "remaining": 3384,
+          "remaining": 3358,
           "richnessRatio": 1
         },
         {
           "prize": 50,
           "originalCount": 11871,
-          "remaining": 10726,
+          "remaining": 10657,
           "richnessRatio": 0.99
         },
         {
           "prize": 30,
           "originalCount": 12444,
-          "remaining": 11253,
+          "remaining": 11176,
           "richnessRatio": 0.99
         },
         {
           "prize": 20,
           "originalCount": 160970,
-          "remaining": 145894,
+          "remaining": 144900,
           "richnessRatio": 0.99
         },
         {
           "prize": 10,
           "originalCount": 210500,
-          "remaining": 191123,
+          "remaining": 189876,
           "richnessRatio": 0.99
         },
         {
           "prize": 5,
           "originalCount": 396706,
-          "remaining": 361196,
+          "remaining": 358873,
           "richnessRatio": 1
         },
         {
           "prize": 3,
           "originalCount": 495056,
-          "remaining": 452629,
+          "remaining": 449751,
           "richnessRatio": 1
         },
         {
           "prize": 2,
           "originalCount": 878981,
-          "remaining": 804601,
+          "remaining": 799652,
           "richnessRatio": 1
         }
       ]
@@ -5356,65 +5356,65 @@
       "ticketPrice": 5,
       "totalTicketsPrinted": 5131500,
       "totalPrizeValueAtLaunch": 17456100,
-      "ticketsRemaining": 4171909,
-      "ticketsRemainingFraction": 0.8129999025626036,
-      "prizesRemainingValue": 14083480,
-      "buyAllCost": 20859545,
-      "buyAllProfit": -6776065,
+      "ticketsRemaining": 4120594,
+      "ticketsRemainingFraction": 0.8029999025626036,
+      "prizesRemainingValue": 13909355,
+      "buyAllCost": 20602970,
+      "buyAllProfit": -6693615,
       "richnessRatio": 0.99,
       "tiers": [
         {
           "prize": 100000,
           "originalCount": 4,
           "remaining": 3,
-          "richnessRatio": 0.92
+          "richnessRatio": 0.93
         },
         {
           "prize": 1000,
           "originalCount": 56,
           "remaining": 48,
-          "richnessRatio": 1.05
+          "richnessRatio": 1.07
         },
         {
           "prize": 500,
           "originalCount": 474,
-          "remaining": 377,
+          "remaining": 373,
           "richnessRatio": 0.98
         },
         {
           "prize": 100,
           "originalCount": 20528,
-          "remaining": 16415,
+          "remaining": 16195,
           "richnessRatio": 0.98
         },
         {
           "prize": 50,
           "originalCount": 68420,
-          "remaining": 54957,
+          "remaining": 54228,
           "richnessRatio": 0.99
         },
         {
           "prize": 20,
           "originalCount": 136840,
-          "remaining": 110219,
+          "remaining": 108802,
           "richnessRatio": 0.99
         },
         {
           "prize": 15,
           "originalCount": 136840,
-          "remaining": 110597,
+          "remaining": 109187,
           "richnessRatio": 0.99
         },
         {
           "prize": 10,
           "originalCount": 376353,
-          "remaining": 305514,
+          "remaining": 301690,
           "richnessRatio": 1
         },
         {
           "prize": 5,
           "originalCount": 547274,
-          "remaining": 447831,
+          "remaining": 442642,
           "richnessRatio": 1.01
         }
       ]
@@ -5425,77 +5425,77 @@
       "ticketPrice": 10,
       "totalTicketsPrinted": 8137550,
       "totalPrizeValueAtLaunch": 56617670,
-      "ticketsRemaining": 8039899,
-      "ticketsRemainingFraction": 0.9879999508451561,
-      "prizesRemainingValue": 55956480,
-      "buyAllCost": 80398990,
-      "buyAllProfit": -24442510,
+      "ticketsRemaining": 7991074,
+      "ticketsRemainingFraction": 0.981999987711289,
+      "prizesRemainingValue": 55599100,
+      "buyAllCost": 79910740,
+      "buyAllProfit": -24311640,
       "richnessRatio": 1,
       "tiers": [
         {
           "prize": 250000,
           "originalCount": 4,
           "remaining": 4,
-          "richnessRatio": 1.01
+          "richnessRatio": 1.02
         },
         {
           "prize": 50000,
           "originalCount": 4,
           "remaining": 4,
-          "richnessRatio": 1.01
+          "richnessRatio": 1.02
         },
         {
           "prize": 10000,
           "originalCount": 8,
           "remaining": 8,
-          "richnessRatio": 1.01
+          "richnessRatio": 1.02
         },
         {
           "prize": 1000,
           "originalCount": 206,
-          "remaining": 204,
+          "remaining": 203,
           "richnessRatio": 1
         },
         {
           "prize": 500,
           "originalCount": 2849,
-          "remaining": 2818,
+          "remaining": 2802,
           "richnessRatio": 1
         },
         {
           "prize": 200,
           "originalCount": 27075,
-          "remaining": 26774,
+          "remaining": 26575,
           "richnessRatio": 1
         },
         {
           "prize": 100,
           "originalCount": 108596,
-          "remaining": 107234,
+          "remaining": 106527,
           "richnessRatio": 1
         },
         {
           "prize": 50,
           "originalCount": 162724,
-          "remaining": 160663,
+          "remaining": 159566,
           "richnessRatio": 1
         },
         {
           "prize": 30,
           "originalCount": 366233,
-          "remaining": 361825,
+          "remaining": 359549,
           "richnessRatio": 1
         },
         {
           "prize": 20,
           "originalCount": 488242,
-          "remaining": 482530,
+          "remaining": 479370,
           "richnessRatio": 1
         },
         {
           "prize": 10,
           "originalCount": 854454,
-          "remaining": 844678,
+          "remaining": 839523,
           "richnessRatio": 1
         }
       ]
